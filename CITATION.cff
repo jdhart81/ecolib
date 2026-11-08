@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use EcoLib, please cite it as below."
+title: "EcoLib: a Lean 4 library of machine-checked conservation science results"
+type: software
+authors:
+  - family-names: Hart
+    given-names: Justin D.
+    affiliation: Viridis LLC
+version: "0.1.0"
+date-released: "2026-11-08"
+license: Apache-2.0
+repository-code: "https://github.com/jdhart81/ecolib"
+keywords: [Lean 4, Mathlib, conservation, ecology, formal verification]

@@ -1,0 +1,143 @@
+# Changelog
+
+## 0.1.0 (2026-11-08)
+
+Added 135 modules (1643 theorems):
+
+- `EcoLib.Ecosystems.BiosphereErasureBound`
+- `EcoLib.Thermodynamics.HeatAndDisorder`
+- `EcoLib.Thermodynamics.BoundedMemoryDissipation`
+- `EcoLib.Learning.BoundedMemoryLearning`
+- `EcoLib.Ecosystems.BiosphereProductivity`
+- `EcoLib.Ecosystems.EcoChainInstrument`
+- `EcoLib.Foundations.MissionFeasibility`
+- `EcoLib.Ecosystems.ConservationOperator`
+- `EcoLib.Alignment.DecoherentSelection`
+- `EcoLib.Ecosystems.DendriticCorridor`
+- `EcoLib.Alignment.EffortlessEquilibrium`
+- `EcoLib.Thermodynamics.GeodesicSaturation`
+- `EcoLib.Alignment.MRAB`
+- `EcoLib.Ecosystems.MutualisticAttestation`
+- `EcoLib.IntelligenceBound.Core`
+- `EcoLib.DScore.DScore`
+- `EcoLib.Corridors.HDFMPOC`
+- `EcoLib.IntelligenceBound.Impossibility`
+- `EcoLib.IntelligenceBound.ThermodynamicEconomics`
+- `EcoLib.IntelligenceBound.SLSPTIntelligenceBound`
+- `EcoLib.IntelligenceBound.SLSPTInverseSquare`
+- `EcoLib.IntelligenceBound.SLSPTTowerOrdering`
+- `EcoLib.IntelligenceBound.SLSPTShadowPrice`
+- `EcoLib.IntelligenceBound.SLSPTShadowPriceLevelCurves`
+- `EcoLib.Restoration.PlasmaNFixFoundations`
+- `EcoLib.Restoration.PlasmaNFixEnergy`
+- `EcoLib.Restoration.PlasmaNFixIntegration`
+- `EcoLib.Thermodynamics.PSITSymplectic`
+- `EcoLib.Corridors.PerennialCorridor`
+- `EcoLib.Economics.StewardshipSetpoint`
+- `EcoLib.IntelligenceBound.SymbioticIntelligenceBound`
+- `EcoLib.Learning.ThermodynamicAttention`
+- `EcoLib.Economics.UniversalWaterfilling`
+- `EcoLib.Alignment.ConjunctiveAuditStewardshipTheorem` (Run-120)
+- `EcoLib.Learning.InformationSymbiosisBalance` (Run-121)
+- `EcoLib.Alignment.ZenoAlignmentBudget` (Run-122)
+- `EcoLib.Learning.FreeEnergyFloorHabitable` (Run-123)
+- `EcoLib.Corridors.CorridorPriority` (Run-124)
+- `EcoLib.Alignment.SharedChannelCoverageAudit` (Run-125)
+- `EcoLib.Alignment.ForbiddenProxyInformationCapacity` (Run-126)
+- `EcoLib.Alignment.MomentRobustPrecautionaryCapacity` (Run-127)
+- `EcoLib.Corridors.BilateralBenefitReciprocityCorridor` (Run-128)
+- `EcoLib.Monitoring.AnytimeMonitoringChangeCertificate` (Run-129)
+- `EcoLib.Restoration.SeedSourceBottleneckCertificate` (Run-130)
+- `EcoLib.Learning.CognitiveSwitchingHysteresis` (Run-131)
+- `EcoLib.DScore.WeightCharter` (Run-132)
+- `EcoLib.Corridors.CorridorOverlapDuality` (Run-133)
+- `EcoLib.Alignment.SufficientSanitization` (Run-135)
+- `EcoLib.IntelligenceBound.SymbioticAccounting` (Run-137)
+- `EcoLib.Ecosystems.AlignmentCone` (Run-138)
+- `EcoLib.Economics.RetrofitWaterFilling` (Run-139)
+- `EcoLib.Restoration.CarbonContinuity`
+- `EcoLib.Alignment.RobustnessKernelV1`
+- `EcoLib.Alignment.ReviewChecks`
+- `EcoLib.DScore.SnapshotAlignment`
+- `EcoLib.Restoration.EcopoieticHedge`
+- `EcoLib.Thermodynamics.SchedulerFreeEnergy`
+- `EcoLib.Restoration.AfforestationStewardship`
+- `EcoLib.Alignment.CheckerAgreement` (Run-166)
+- `EcoLib.Economics.CapacityHarmonization`
+- `EcoLib.Alignment.CertificationComplexity`
+- `EcoLib.Corridors.CorridorStewardship`
+- `EcoLib.DScore.MeasurementEnergyCeiling` (Run-175)
+- `EcoLib.Economics.DualPriceAlignment` (Run-150)
+- `EcoLib.Alignment.DeferenceReserveEqualization` (Run-158)
+- `EcoLib.DScore.StewardshipUncertaintyReserve` (Run-160)
+- `EcoLib.Thermodynamics.DeadlineCarnot`
+- `EcoLib.Learning.DissipativeGeneralization`
+- `EcoLib.Corridors.DualCorridor`
+- `EcoLib.Restoration.EcopoieticOrdering`
+- `EcoLib.Restoration.EcopoieticSuccession`
+- `EcoLib.IntelligenceBound.FixedOverheadEnergy` (Run-178)
+- `EcoLib.Monitoring.FreshnessReserve` (Run-148)
+- `EcoLib.Restoration.ForestNucleation`
+- `EcoLib.Restoration.FragmentationHysteresis`
+- `EcoLib.Ecosystems.GaianHarmonization`
+- `EcoLib.Ecosystems.GaianMutualismSelection`
+- `EcoLib.Learning.GrokkingNucleation`
+- `EcoLib.Monitoring.HarmonicEarlyWarning`
+- `EcoLib.Economics.HarmonicValuation`
+- `EcoLib.Thermodynamics.IntelligenceExergy`
+- `EcoLib.Ecosystems.JointMinimumFloor` (Run-174)
+- `EcoLib.Ecosystems.KSCT`
+- `EcoLib.Foundations.KZSLTReprove`
+- `EcoLib.Thermodynamics.KibbleZurekSpeedLimit`
+- `EcoLib.Learning.MELT`
+- `EcoLib.Foundations.MIST`
+- `EcoLib.Thermodynamics.MonitoringResponseReserve` (Run-156)
+- `EcoLib.Alignment.ManipulationProofWeighting`
+- `EcoLib.Restoration.MutualistCoestablishment`
+- `EcoLib.Ecosystems.MutualisticInference`
+- `EcoLib.Monitoring.PairedDetectorCoverage` (Run-165)
+- `EcoLib.Learning.PlasticityVitrification`
+- `EcoLib.Ecosystems.ResponseAdjustedAlignment`
+- `EcoLib.Thermodynamics.ReservedActivity` (Run-171)
+- `EcoLib.Corridors.ReciprocalCorridorBottleneck` (Run-161)
+- `EcoLib.Learning.ReciprocalDistillationAccounting` (Run-176)
+- `EcoLib.Learning.RelativeEntropyChangeBudget` (Run-164)
+- `EcoLib.Learning.RetentionFloor` (Run-136)
+- `EcoLib.Ecosystems.ReciprocalRescue` (Run-153)
+- `EcoLib.Learning.CognitiveThroughput`
+- `EcoLib.Learning.HarmonizedDescent`
+- `EcoLib.IntelligenceBound.SequentialAlignmentRetention` (Run-162)
+- `EcoLib.Learning.SignedBiasCancellation` (Run-154)
+- `EcoLib.Economics.SwitchingDissipationPayback` (Run-159)
+- `EcoLib.Thermodynamics.SymbioticEqualization`
+- `EcoLib.Restoration.SharedFacilitation` (Run-149)
+- `EcoLib.Corridors.SharedCorridorFootprint` (Run-173)
+- `EcoLib.Restoration.StewardshipOptionReserve` (Run-140)
+- `EcoLib.Ecosystems.SinglePartnerLossReserve` (Run-169)
+- `EcoLib.Economics.StewardshipReserve` (Run-172)
+- `EcoLib.Ecosystems.SharedVerificationOverhead` (Run-155)
+- `EcoLib.Monitoring.StewardshipRevisit`
+- `EcoLib.Corridors.SymbioticCorridor`
+- `EcoLib.Economics.SymbioticRiskPremium`
+- `EcoLib.Ecosystems.SymbioticSpeedLimit`
+- `EcoLib.Foundations.TCT`
+- `EcoLib.IntelligenceBound.SymbioticTransferThreshold` (Run-157)
+- `EcoLib.IntelligenceBound.DutyCycleLedger` (Run-147)
+- `EcoLib.Learning.ThermalStepCorridor` (Run-151)
+- `EcoLib.Corridors.TwoRouteStewardship` (Run-152)
+- `EcoLib.Economics.ThermodynamicDiscounting`
+- `EcoLib.Restoration.UsefulDissipatedWork` (Run-163)
+- `EcoLib.Restoration.UniversalNucleationMetaTheorem`
+- `EcoLib.Ecosystems.VerificationPhaseTransition`
+- `EcoLib.Corridors.WuWeiCorridor`
+- `EcoLib.Thermodynamics.WuWeiCrypticity`
+- `EcoLib.Thermodynamics.WuWeiDominance`
+- `EcoLib.Thermodynamics.WuWeiInference`
+- `EcoLib.Monitoring.WuWeiSampling`
+- `EcoLib.Foundations.P1BitQuad` (2026-10-28_P1)
+- `EcoLib.Restoration.P2Afforestation` (2026-11-01_P2)
+- `EcoLib.Restoration.P2CarbonContinuity` (2026-10-29_P2)
+- `EcoLib.Economics.P2Harmonization` (2026-11-02_P2)
+- `EcoLib.Restoration.P2Restoration` (2026-10-31_P2)
+
+Held 6: canon:P9_AI_Safety.lean (marked Exploratory in the canon (quarantined, not part of the verified spine)); canon:series/ACCN (does not compile at the pinned toolchain and Mathlib (2 Lean errors)); canon:series/BCAN (no proof file in the deposit (only statements with sorry)); canon:series/DCAE (does not compile at the pinned toolchain and Mathlib (2 Lean errors)); canon:series/RCBN (no proof file in the deposit (only statements with sorry)); canon:series/SBRN (no proof file in the deposit (only statements with sorry))

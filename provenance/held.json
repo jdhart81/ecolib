@@ -1,0 +1,152 @@
+{
+ "dropped": [
+  {
+   "reason": "same development as canon:P0_IntelligenceBound/Current.lean",
+   "rid": "canon:P0_IntelligenceBound_COMPILED.lean"
+  },
+  {
+   "reason": "copy of canon:certificates/Run-129",
+   "rid": "canon:series/ACC"
+  },
+  {
+   "reason": "identical to canon:certificates/Run-120",
+   "rid": "canon:series/CAST"
+  },
+  {
+   "reason": "identical to canon:certificates/Run-133",
+   "rid": "canon:series/CODC"
+  },
+  {
+   "reason": "identical to canon:certificates/Run-131",
+   "rid": "canon:series/CSHC/CognitiveSwitchingHysteresis.lean"
+  },
+  {
+   "reason": "identical to canon:certificates/Run-132",
+   "rid": "canon:series/DSWC"
+  },
+  {
+   "reason": "identical to canon:certificates/Run-138",
+   "rid": "canon:series/GACC"
+  },
+  {
+   "reason": "identical to canon:certificates/Run-123",
+   "rid": "canon:series/HCF"
+  },
+  {
+   "reason": "copy of canon:certificates/Run-126",
+   "rid": "canon:series/ICC"
+  },
+  {
+   "reason": "identical to canon:certificates/Run-121",
+   "rid": "canon:series/ISB"
+  },
+  {
+   "reason": "copy of canon:certificates/Run-127",
+   "rid": "canon:series/PCR"
+  },
+  {
+   "reason": "identical to canon:certificates/Run-124",
+   "rid": "canon:series/PCS"
+  },
+  {
+   "reason": "identical to canon:certificates/Run-128",
+   "rid": "canon:series/RC/PaperFormalization.lean"
+  },
+  {
+   "reason": "identical to canon:series/DissipativeGeneralization.lean",
+   "rid": "canon:series/S6_CognitionLearning/DissipativeGeneralization.lean"
+  },
+  {
+   "reason": "identical to canon:series/MELT.lean",
+   "rid": "canon:series/S6_CognitionLearning/MELT.lean"
+  },
+  {
+   "reason": "identical to canon:certificates/Run-137",
+   "rid": "canon:series/SAC"
+  },
+  {
+   "reason": "copy of canon:certificates/Run-125",
+   "rid": "canon:series/SBB"
+  },
+  {
+   "reason": "copy of canon:certificates/Run-130",
+   "rid": "canon:series/SSBC"
+  },
+  {
+   "reason": "identical to canon:certificates/Run-135",
+   "rid": "canon:series/SSC"
+  },
+  {
+   "reason": "identical to canon:certificates/Run-139",
+   "rid": "canon:series/TRWFN"
+  },
+  {
+   "reason": "identical to canon:certificates/Run-122",
+   "rid": "canon:series/ZAB"
+  },
+  {
+   "reason": "same development as canon:P0_IntelligenceBound/Current.lean",
+   "rid": "ib:IntelligenceBound/Basic.lean"
+  }
+ ],
+ "held": [
+  {
+   "fingerprint": "2feed348e4816c1f59343791809f41691e2c81f073bddb6311d6189c20ca5b35",
+   "reason": "marked Exploratory in the canon (quarantined, not part of the verified spine)",
+   "recheck": true,
+   "rid": "canon:P9_AI_Safety.lean",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": ""
+  },
+  {
+   "errors": [
+    "50:71: Application type mismatch: The argument\n  h\nhas type\n  \u00acp = 1\nbut is expected to have type\n  1 \u2260 p\nin the application\n  Ne.symm h",
+    "64:50: failed to prove positivity/nonnegativity/nonzeroness"
+   ],
+   "fingerprint": "1e055c1eb1044ce964ed2d5ca507b8f9bb920d3ccc843bbf843b973e2bf85740",
+   "reason": "does not compile at the pinned toolchain and Mathlib (2 Lean errors)",
+   "recheck": false,
+   "rid": "canon:series/ACCN",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-145"
+  },
+  {
+   "fingerprint": "08e62d388e31300944c45bbf7c66ee3dee26d7c1ca0dda3548f5515aac061202",
+   "reason": "no proof file in the deposit (only statements with sorry)",
+   "recheck": true,
+   "rid": "canon:series/BCAN",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-142"
+  },
+  {
+   "errors": [
+    "27:58: unsolved goals\nwS wP wG s\u2081 p\u2081 g\u2081 s\u2080 p\u2080 g\u2080 : \u211d\n\u22a2 wS * s\u2081 + wP * p\u2081 + (wG * g\u2081 - dscore wS wP wG s\u2080 p\u2080 g\u2080) =\n    wS * s\u2081 - wS * s\u2080 + (wP * p\u2081 - wP * p\u2080) + (wG * g\u2081 - wG * g\u2080)",
+    "72:2: linarith failed to find a contradiction\ncase h1.h\nwS wP wG \u03b5 s p g : \u211d\nhsum : wS + wP + wG = 1\na\u271d : wS * (s + \u03b5) + wP * (p + \u03b5) + wG * (g + \u03b5) - dscore wS wP wG s p g < \u03b5\n\u22a2 False\nfailed"
+   ],
+   "fingerprint": "9629aef51d85ceffa544c14d75dc206b06015eb4d02c23a964744ca9967b55f8",
+   "reason": "does not compile at the pinned toolchain and Mathlib (2 Lean errors)",
+   "recheck": false,
+   "rid": "canon:series/DCAE",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-146"
+  },
+  {
+   "fingerprint": "08e62d388e31300944c45bbf7c66ee3dee26d7c1ca0dda3548f5515aac061202",
+   "reason": "no proof file in the deposit (only statements with sorry)",
+   "recheck": true,
+   "rid": "canon:series/RCBN",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-143"
+  },
+  {
+   "fingerprint": "08e62d388e31300944c45bbf7c66ee3dee26d7c1ca0dda3548f5515aac061202",
+   "reason": "no proof file in the deposit (only statements with sorry)",
+   "recheck": true,
+   "rid": "canon:series/SBRN",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-144"
+  }
+ ],
+ "schema": "ecolib-held/1",
+ "updated": "2026-11-08"
+}

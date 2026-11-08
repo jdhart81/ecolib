@@ -1,0 +1,4262 @@
+{
+ "lean_toolchain": "leanprover/lean4:v4.28.0",
+ "mathlib_rev": "8f9d9cff6bd728b17a24e163c9402775d9e6a365",
+ "modules": [
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/CertificationComplexity.lean",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Alignment",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/CertificationComplexity.lean",
+     "sha256": "eead20cc499919b01447419e7a09c55e955ebee234333bbd77526157578c8ef4"
+    }
+   ],
+   "fingerprint": "1d9e5d0dea33db1e26304550fb7a51aec9191a81ee9d32050b16a576619360dd",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Alignment.CertificationComplexity",
+   "public_since": "",
+   "rid": "canon:series/CertificationComplexity.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "e2d6671be8d392312c59e3956d31c8ffb07a677627d427f0006484e7b8e7dd73",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 3,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/CAIA/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Alignment",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/CAIA/ViridisRun166.lean",
+     "sha256": "668f9abac988a57dc119245a4149eaebcde94b605209b94b8a7631de9b66ce1a"
+    }
+   ],
+   "fingerprint": "2fb9d683b127d943f702096241ee44c48b4de63e56d0db85573897decc05ddae",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.Alignment.CheckerAgreement",
+   "public_since": "2026-09-19",
+   "rid": "canon:series/CAIA",
+   "schema": "ecolib-module/1",
+   "sha256": "c5408fc48154af826262528f958d6dcd50e1ee17ecc97cff1aa902407a5b3d0f",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-166",
+   "theorems": 4,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "certificate_status": "LEAN_ZERO_SORRY_CERTIFIED",
+    "depth": "substantial",
+    "evidence": "certificates/Run-120/",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": true
+   },
+   "deps": [],
+   "domain": "Alignment",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "certificates/Run-120/VERIFICATION_CANDIDATE_V4.lean",
+     "sha256": "4b574148b3c4854ac85d0594915a536aa1cc372414c682a726b6ff60824b7c58"
+    }
+   ],
+   "fingerprint": "31dbd6c7a65ebdc020952de55569176d055c990fd2ac4fba67159042bc10bc58",
+   "intelligence_bound_conjecture": false,
+   "kind": "certificate",
+   "module": "EcoLib.Alignment.ConjunctiveAuditStewardshipTheorem",
+   "public_since": "2026-08-29",
+   "rid": "canon:certificates/Run-120",
+   "schema": "ecolib-module/1",
+   "sha256": "f8333e327cb3adb03b0900bebc710f3c272c58a12c2ca07c02cc18c22e5fed27",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-120",
+   "theorems": 59,
+   "title": "The Conjunctive Audit Stewardship Theorem: Why Evidence Portfolios Reward Bundles Rather Than Scattered Greedy Checks",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "os/functions/decoherent-selection-ambiguity-cost/function.json",
+    "provider": "CANON_CI_SPINE_BUILD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Alignment",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "DecoherentSelection.lean",
+     "sha256": "16ee8fbfb30acff0e9ab1c1b1972b274cf81c08fd6d61434e0894426a4ab701c"
+    }
+   ],
+   "fingerprint": "78f9d1bf8d4241813a8b190b3b3df8a8149d98656561e1e73d0e2eaa39706479",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Alignment.DecoherentSelection",
+   "public_since": "",
+   "rid": "canon:DecoherentSelection.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "4e013a2e8929b9ad50372ccf10074e83bd16d1fe95b6f539280800b23d12dd77",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 12,
+   "title": "Decoherent selection \u2014 ambiguity cost is at most ln N",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/DREAA/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Alignment",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/DREAA/ViridisRun158.lean",
+     "sha256": "aebdd2147eb58df5fa8ed87c8f7880d75fea851f9ad7eb240c93f388acbb670b"
+    }
+   ],
+   "fingerprint": "7a891282b03000674abf9df423bafe0ba6f7016b679461e3eb6065bc472a9771",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.Alignment.DeferenceReserveEqualization",
+   "public_since": "2026-09-13",
+   "rid": "canon:series/DREAA",
+   "schema": "ecolib-module/1",
+   "sha256": "cd152bc7afc0bbe4c4799cd272eeb137df27a40be1bc417eba9598ceb8e57e87",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-158",
+   "theorems": 9,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "os/functions/effortless-equilibrium-forcing-time/function.json",
+    "provider": "CANON_CI_SPINE_BUILD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Alignment",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "EffortlessEquilibrium.lean",
+     "sha256": "bdfeb671282f38f664e578799a442980dda2594ec344f9c2661460862f91d7ed"
+    }
+   ],
+   "fingerprint": "61bb7ab24748137f8f5f4175f6e4c0a2a41a56f3ea92cf850bfc41f9c01ee45c",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Alignment.EffortlessEquilibrium",
+   "public_since": "",
+   "rid": "canon:EffortlessEquilibrium.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "6e61e13b55476012c970e6fac2991913732f0f3a088f26a4f3f6be58c7a214d3",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 11,
+   "title": "Effortless equilibrium \u2014 forcing-time floor, conditional on the Intelligence Bound premises",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "certificate_status": "LEAN_ZERO_SORRY_CERTIFIED",
+    "depth": "substantial",
+    "evidence": "certificates/Run-126/",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": true
+   },
+   "deps": [],
+   "domain": "Alignment",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "certificates/Run-126/VERIFICATION_CANDIDATE.lean",
+     "sha256": "e8dc8803fb3c1e465b354b575886c0acf67ba19b28434d16e5abb4c62910101a"
+    }
+   ],
+   "fingerprint": "6096bdab367542ca7a4f46daf47b532ec082ab893f8831c4b43bbec75dbc4990",
+   "intelligence_bound_conjecture": false,
+   "kind": "certificate",
+   "module": "EcoLib.Alignment.ForbiddenProxyInformationCapacity",
+   "public_since": "2026-08-30",
+   "rid": "canon:certificates/Run-126",
+   "schema": "ecolib-module/1",
+   "sha256": "511e1873d091391b3d0e6df921bb0cf95adfac736fb81812ce09a64c0a98c3a6",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-126",
+   "theorems": 109,
+   "title": "Forbidden-proxy information capacity audit",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "os/functions/multi-ring-alignment-capacity/function.json",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Alignment",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "MRAB.lean",
+     "sha256": "f56396bf4717d3264da534edd92f6cd77919d7377e7b24e56f8885a3d54db2e7"
+    }
+   ],
+   "fingerprint": "8e4cab24562a8fe9a6bc14e7ea1134561437a21f19a095ed678745fc92dbd74b",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Alignment.MRAB",
+   "public_since": "",
+   "rid": "canon:MRAB.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "d724369d47188cfcc776d527b71b500f439eb8bd64cf4780794e674dea65960d",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 10,
+   "title": "Multi-ring alignment capacity audit",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/ManipulationProofWeighting.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Alignment",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/ManipulationProofWeighting.lean",
+     "sha256": "3ae0434ba4124450b62148502257cc14b82d6aa6fedeb9e0e2b428b5287dae0f"
+    }
+   ],
+   "fingerprint": "7ece35392a214f016c24c33c11c253f87782417c55029d8f2f1493982ddcc266",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Alignment.ManipulationProofWeighting",
+   "public_since": "",
+   "rid": "canon:series/ManipulationProofWeighting.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "d2739b7cdd52b25bed8b5f312d386d40302fd05ab489b3aa2e25ce655615ad19",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 7,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "certificate_status": "LEAN_ZERO_SORRY_CERTIFIED",
+    "depth": "substantial",
+    "evidence": "certificates/Run-127/",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": true
+   },
+   "deps": [],
+   "domain": "Alignment",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "certificates/Run-127/VERIFICATION_CANDIDATE.lean",
+     "sha256": "e930944c7b5efe69cecc90884243a8aca6a09a6930442196347b6d4227334d9a"
+    }
+   ],
+   "fingerprint": "37607301699bf75de7331fa0d59ef5fc67ab02a720c0b3d03150304662e0e666",
+   "intelligence_bound_conjecture": false,
+   "kind": "certificate",
+   "module": "EcoLib.Alignment.MomentRobustPrecautionaryCapacity",
+   "public_since": "2026-08-30",
+   "rid": "canon:certificates/Run-127",
+   "schema": "ecolib-module/1",
+   "sha256": "5d4fef0e6ba828ef9d223eac806fec601e84eb524469faa8c48fde4b514a1b5e",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-127",
+   "theorems": 47,
+   "title": "Moment-robust precautionary capacity certificate",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "releases/2026-08-08/Robustness_Before_Performance/lean/ReviewChecks.lean",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [
+    "EcoLib.Alignment.RobustnessKernelV1"
+   ],
+   "domain": "Alignment",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "releases/2026-08-08/Robustness_Before_Performance/lean/ReviewChecks.lean",
+     "sha256": "f3e9b219f3e581a8ac36a831089c708e4980081a013f0ba96d949a07e9b2c33f"
+    }
+   ],
+   "fingerprint": "77fcc73fcdea50db00f0f3452f95e9ac309005e8b3815f97e7c160434f370490",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Alignment.ReviewChecks",
+   "public_since": "",
+   "rid": "canon:releases/2026-08-08/Robustness_Before_Performance/lean/ReviewChecks.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "efaf08579a926cc68f506fce4144db2f96b4c7a03da48a24330a46e307aed607",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 19,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "releases/2026-08-08/Robustness_Before_Performance/lean/RobustnessKernelV1.lean",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Alignment",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "releases/2026-08-08/Robustness_Before_Performance/lean/RobustnessKernelV1.lean",
+     "sha256": "ef373a04b19dff71bf02632d0e4134879069c31ab716e5f669483ab33c18802f"
+    }
+   ],
+   "fingerprint": "30cc71b698fd69562f688bfcc2eb151f871129af3ead747c6eec019b37bf4719",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Alignment.RobustnessKernelV1",
+   "public_since": "",
+   "rid": "canon:releases/2026-08-08/Robustness_Before_Performance/lean/RobustnessKernelV1.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "a79982405794fda889136e02bca7752d7eea4731ffea5e91d616d3e74534fb66",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 27,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "certificate_status": "LEAN_ZERO_SORRY_CERTIFIED",
+    "depth": "substantial",
+    "evidence": "certificates/Run-125/",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": true
+   },
+   "deps": [],
+   "domain": "Alignment",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "certificates/Run-125/VERIFICATION_CANDIDATE_V2.lean",
+     "sha256": "adb5eb9b25d9be09f75aa3fc2de64d982e2787b9d2d8de453745b22e601ac6ed"
+    }
+   ],
+   "fingerprint": "98aa63d3f2d5a9b0903ccc916ab3e4361ded952aefff069877f7dd43c49da9dc",
+   "intelligence_bound_conjecture": false,
+   "kind": "certificate",
+   "module": "EcoLib.Alignment.SharedChannelCoverageAudit",
+   "public_since": "2026-08-29",
+   "rid": "canon:certificates/Run-125",
+   "schema": "ecolib-module/1",
+   "sha256": "73fabee49f9b8fc6abcdd5d3d0fee8e542c41f159d46ea7eccb854b116444b73",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-125",
+   "theorems": 54,
+   "title": "Shared-channel coverage audit",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "certificate_status": "LEAN_ZERO_SORRY_CERTIFIED",
+    "depth": "elementary",
+    "evidence": "certificates/Run-135/",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": true
+   },
+   "deps": [],
+   "domain": "Alignment",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "certificates/Run-135/VERIFICATION_CANDIDATE.lean",
+     "sha256": "e95ad53230883a723f5e3f0cc1d744e329ff5a36e91635f7f67eaf3703d5b21c"
+    }
+   ],
+   "fingerprint": "4d9ae77238e8cdd4480f798161448ae2aa608b25b43a7c28aa731398e7d94d84",
+   "intelligence_bound_conjecture": false,
+   "kind": "certificate",
+   "module": "EcoLib.Alignment.SufficientSanitization",
+   "public_since": "2026-08-30",
+   "rid": "canon:certificates/Run-135",
+   "schema": "ecolib-module/1",
+   "sha256": "fa1a0697ba5cccd4ee96c6c2fa809f8a87547d9fd121065d5ff0fe504c73f2a5",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-135",
+   "theorems": 5,
+   "title": "The Sufficient Sanitization Certificate: Task Information, Data Minimization, and an Ideal Erasure Gap",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "certificate_status": "LEAN_ZERO_SORRY_CERTIFIED",
+    "depth": "substantial",
+    "evidence": "certificates/Run-122/",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": true
+   },
+   "deps": [],
+   "domain": "Alignment",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "certificates/Run-122/VERIFICATION_CANDIDATE_ATTEMPT_5.lean",
+     "sha256": "14ebbfa7c73f86cb2eccaf1c83e8e18a139d45a9f4c5d244e0aa03b56b24ac13"
+    }
+   ],
+   "fingerprint": "c99498341c374105ec186ffea1b2a24f349ef30205fc570683ab010bb227c3da",
+   "intelligence_bound_conjecture": false,
+   "kind": "certificate",
+   "module": "EcoLib.Alignment.ZenoAlignmentBudget",
+   "public_since": "2026-08-29",
+   "rid": "canon:certificates/Run-122",
+   "schema": "ecolib-module/1",
+   "sha256": "f66dbfba2f890c8e2caf0903548c50577222a835b3a287617c46b8d7e10738eb",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-122",
+   "theorems": 61,
+   "title": "The Zeno Alignment Budget: Uniform Projective Steps and a Noise-Limited Measurement Count",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "certificate_status": "LEAN_ZERO_SORRY_CERTIFIED",
+    "depth": "substantial",
+    "evidence": "certificates/Run-128/",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": true
+   },
+   "deps": [],
+   "domain": "Corridors",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "certificates/Run-128/VERIFICATION_CANDIDATE.lean",
+     "sha256": "1de8f6a1f2ac05dd8026ad92a646b910d17b8369ba72c3dc6ebf7628ba1696ee"
+    }
+   ],
+   "fingerprint": "83c2ae21fdb32f0384a3b8a51066b73bf1147095eb995ed413feb6806bf4c49e",
+   "intelligence_bound_conjecture": false,
+   "kind": "certificate",
+   "module": "EcoLib.Corridors.BilateralBenefitReciprocityCorridor",
+   "public_since": "2026-08-30",
+   "rid": "canon:certificates/Run-128",
+   "schema": "ecolib-module/1",
+   "sha256": "5443116f38c42b0cd193cfa73ee45e34e83ef37f25cef2513952b107061c092f",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-128",
+   "theorems": 16,
+   "title": "Bilateral-benefit reciprocity corridor",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "certificate_status": "LEAN_ZERO_SORRY_CERTIFIED",
+    "depth": "elementary",
+    "evidence": "certificates/Run-133/",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": true
+   },
+   "deps": [],
+   "domain": "Corridors",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "certificates/Run-133/VERIFICATION_CANDIDATE.lean",
+     "sha256": "153531dbead8ae7e94e1bb5a98ceb73f6aed50d75498e70919500029a7e2d2aa"
+    }
+   ],
+   "fingerprint": "df0cd370d78a8970bd01605d7f6e1690d30e7dbc4ba46d94990824e119b430bb",
+   "intelligence_bound_conjecture": false,
+   "kind": "certificate",
+   "module": "EcoLib.Corridors.CorridorOverlapDuality",
+   "public_since": "2026-08-30",
+   "rid": "canon:certificates/Run-133",
+   "schema": "ecolib-module/1",
+   "sha256": "4c282e5dcb9529b7e85abdf0405b385e39bd0cb71daba66884b858e489eb1b77",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-133",
+   "theorems": 6,
+   "title": "The Corridor Overlap Duality Certificate: An exact synchrony-diversification tradeoff for two shared habitat paths",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "certificate_status": "LEAN_ZERO_SORRY_CERTIFIED",
+    "depth": "substantial",
+    "evidence": "certificates/Run-124/",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": true
+   },
+   "deps": [],
+   "domain": "Corridors",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "certificates/Run-124/VERIFICATION_CANDIDATE_V6.lean",
+     "sha256": "ede2d3f68dcc19d77508ab1be245c3be763e32ae4eb69605023b9f3faa31df17"
+    }
+   ],
+   "fingerprint": "a343948d9385a86841127b4ae80867c46b02018893ea8149899a75130bc1c324",
+   "intelligence_bound_conjecture": false,
+   "kind": "certificate",
+   "module": "EcoLib.Corridors.CorridorPriority",
+   "public_since": "2026-08-29",
+   "rid": "canon:certificates/Run-124",
+   "schema": "ecolib-module/1",
+   "sha256": "7d8c8fb7b44c387102c8df9f10f1b8ae5f8cdb955398eac780551a826d9177b2",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-124",
+   "theorems": 38,
+   "title": "Corridor priority \u2014 which corridor link to protect first",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/CorridorStewardship.lean",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Corridors",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/CorridorStewardship.lean",
+     "sha256": "aea454d414f162c47e024dc46b3dddcb50fb32e67b431a85d32b01c5a1a277f4"
+    }
+   ],
+   "fingerprint": "90c7032721ef6ad91236eb109a55092b9f96775dda881697f1cb058ea1f5a50b",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Corridors.CorridorStewardship",
+   "public_since": "",
+   "rid": "canon:series/CorridorStewardship.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "4a81c6f6f707869e486bedea451ed284d52b5e30d709f15866288a6271af5c80",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 6,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/DualCorridor.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Corridors",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/DualCorridor.lean",
+     "sha256": "57ef9ca596e42fc70b445e8dd6348d05d0d67c4849268e3333336427bb45448b"
+    }
+   ],
+   "fingerprint": "d2e6478b10b78638a52b7bfa125801288b248fb0b3fce814773eb5918e219a77",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Corridors.DualCorridor",
+   "public_since": "",
+   "rid": "canon:series/DualCorridor.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "021157474758b19eabb110999377b068e68c096bb83e80d8e9603333d72a5b3d",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 20,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "os/functions/hdfm-strahler-corridor-width/function.json",
+    "provider": "CANON_CI_SPINE_BUILD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Corridors",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "P2_HDFM_POC.lean",
+     "sha256": "1374d11ea0119bbb10efb8509299fb9c35ef502e6568908ed5c4d16c73e0712f"
+    }
+   ],
+   "fingerprint": "ef04069b39b4d31318baedbfb4cd13e448f41f64f1d7df5b7204540a4428dbdd",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Corridors.HDFMPOC",
+   "public_since": "",
+   "rid": "canon:P2_HDFM_POC.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "275379df1edfa6002acf2c5910bd6272dac55876893009c9bbce6ee3f1aa580c",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 8,
+   "title": "HDFM \u2014 corridor width is monotone in Strahler order",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "os/functions/perennial-corridor-holding-power/function.json",
+    "provider": "CANON_CI_SPINE_BUILD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Corridors",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "PerennialCorridor.lean",
+     "sha256": "dd00d2360c7a2aa362d4151db994f69d6e8529994510c78dcbede6a6a0199dd7"
+    }
+   ],
+   "fingerprint": "3b1692d3acc9829f9dc3f8a8c29426d892a68b1c8cb969c5fdf09b691dddc35c",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Corridors.PerennialCorridor",
+   "public_since": "",
+   "rid": "canon:PerennialCorridor.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "b46817b05a57613230b48b3e715991908b41532a7f613d1769e43a867a86a50c",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 15,
+   "title": "Perennial corridor \u2014 holding power grows with decay rate",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/RCBX/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Corridors",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/RCBX/ViridisRun161.lean",
+     "sha256": "fee55b9b6736205276e2053cb582a3112fc00761008dc7fcf0eb442dc55f3e88"
+    }
+   ],
+   "fingerprint": "873a4aee78c5d0d76b668c7a9d060dea930f239075b2e1d7664acfcc0d9215e8",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.Corridors.ReciprocalCorridorBottleneck",
+   "public_since": "2026-09-13",
+   "rid": "canon:series/RCBX",
+   "schema": "ecolib-module/1",
+   "sha256": "7bf1545fa670a04839fc18b7b6ca13e428bc9bef11308481a04be52de6d5959c",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-161",
+   "theorems": 9,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/SFMC/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Corridors",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/SFMC/ViridisRun173.lean",
+     "sha256": "b2aec63bfa1ab8b99bcac299d4152ed3fe0243e923b44a6e720be8c49dbbadda"
+    }
+   ],
+   "fingerprint": "393782e8db39b5ebf2484a8637605eabdb0dea7c22d266fc9f18edc6070214ed",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.Corridors.SharedCorridorFootprint",
+   "public_since": "2026-09-27",
+   "rid": "canon:series/SFMC",
+   "schema": "ecolib-module/1",
+   "sha256": "536ecfbbaacb9e95265a3e81d5ad1c669ca0761354951d7d93e60c698c7b3eca",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-173",
+   "theorems": 6,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/SymbioticCorridor.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Corridors",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/SymbioticCorridor.lean",
+     "sha256": "a8498bb16c7dea8fcf2593275c8bc7c6c4579d67b99806511e246fab36d63441"
+    }
+   ],
+   "fingerprint": "a139bc1ed40aaf308fa81a73a24e7f93616a63468202f4861895cc2b81880a33",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Corridors.SymbioticCorridor",
+   "public_since": "",
+   "rid": "canon:series/SymbioticCorridor.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "60d5ea353129480e9c07babd9d0df0c6e239aeb08755834959b5e8f9438fab59",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 9,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/TRSE/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Corridors",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/TRSE/ViridisRun152.lean",
+     "sha256": "424586946e1a56f3774b36cc5dd70b18cd6be596fabce21e84494b34accabba5"
+    }
+   ],
+   "fingerprint": "165d43509863711cb837778d957024cc7563ad1496ce91f7e8f9a4b36b755a22",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.Corridors.TwoRouteStewardship",
+   "public_since": "2026-09-13",
+   "rid": "canon:series/TRSE",
+   "schema": "ecolib-module/1",
+   "sha256": "394f61075f022173ce759c1f2f19d9535ecb6774b50f09126e9749c1c0c68c39",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-152",
+   "theorems": 8,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/WuWeiCorridor.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Corridors",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/WuWeiCorridor.lean",
+     "sha256": "37fe5a0b0b4f0995da10f27c361eb2f3bd0e3b0ffd527fa9ecfc43e5684cbe9d"
+    }
+   ],
+   "fingerprint": "48f4b788e91be71df1d934d3acc62c16949ce0ad58e0137787792dbab4936d32",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Corridors.WuWeiCorridor",
+   "public_since": "",
+   "rid": "canon:series/WuWeiCorridor.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "0a3f8c0b22de4fdcf198fe188f18ad91d113fd8ad2b91031dd8cfc3e1375a80b",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 4,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "P1_DScore.lean",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "DScore",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "P1_DScore.lean",
+     "sha256": "3f5ec424f57fcbbcc15d373e9f4f8b624410e2f8bf6504020eea8680f874f7b3"
+    }
+   ],
+   "fingerprint": "1053c4b4630786acf8af05e87f898e01c731dc1e561b38a40280c894948c07e9",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.DScore.DScore",
+   "public_since": "",
+   "rid": "canon:P1_DScore.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "f04fa75d8bffa192cf2502588e1d9af9b988aafd3ccb6c5fed03c8448e9a1db0",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 2,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/DMEC/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "DScore",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/DMEC/ViridisRun175.lean",
+     "sha256": "92bb2d236c3d34b97cdf4bb68e0adfb50b9b141b5999966739c3f65e54d678dc"
+    }
+   ],
+   "fingerprint": "acad68aed467908e945d71074396ebb26a1e6e38a9ea807b4399a38897438949",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.DScore.MeasurementEnergyCeiling",
+   "public_since": "2026-09-27",
+   "rid": "canon:series/DMEC",
+   "schema": "ecolib-module/1",
+   "sha256": "a4ffb278fc3d83cc16176f9d85c0b604be3f404bb9a6cb21efe28d5069cb3f96",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-175",
+   "theorems": 5,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "releases/2026-08-08/The_D-Score_Snapshot_Alignment_Theorem/lean/SnapshotAlignment.lean",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "DScore",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "releases/2026-08-08/The_D-Score_Snapshot_Alignment_Theorem/lean/SnapshotAlignment.lean",
+     "sha256": "bce0b84e350694d345ab2fc439c3f6a532d530e453c15ae539d8f76e96c7aa61"
+    }
+   ],
+   "fingerprint": "81d854f758aeee1090974b4d8fc7fa294402eccc3e0a4bd5f5e6e7691c03b3e9",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.DScore.SnapshotAlignment",
+   "public_since": "",
+   "rid": "canon:releases/2026-08-08/The_D-Score_Snapshot_Alignment_Theorem/lean/SnapshotAlignment.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "a73d804f29d447950b9345f7b70d5d39314b0a32fae8f32f6c4540e2c8835ec1",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 13,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/DSUR/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "DScore",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/DSUR/ViridisRun160.lean",
+     "sha256": "5b6f324502a0001e1fb7edb32bb2b1472a3e70a681d039e87a9e4809bce7773a"
+    }
+   ],
+   "fingerprint": "94497f30bbc467c587ecf01a4b07b17e888223c016fb9e874046612e055b11cc",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.DScore.StewardshipUncertaintyReserve",
+   "public_since": "2026-09-13",
+   "rid": "canon:series/DSUR",
+   "schema": "ecolib-module/1",
+   "sha256": "32595db416b69426a19225cc3d28759a03fc6a31419fcbca2787032cdd81f2f9",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-160",
+   "theorems": 10,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "certificate_status": "LEAN_ZERO_SORRY_CERTIFIED",
+    "depth": "substantial",
+    "evidence": "certificates/Run-132/",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": true
+   },
+   "deps": [],
+   "domain": "DScore",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "certificates/Run-132/VERIFICATION_CANDIDATE_ATTEMPT_3.lean",
+     "sha256": "4fd0b4dd32d30d0383ffd06d9bc50b4cf53dfad8b4a017333a25cb3f0f46bd5e"
+    }
+   ],
+   "fingerprint": "9df3508f3ec250b39c8deec0d3f45ec3f78a4547091a30026d7000f7d546669e",
+   "intelligence_bound_conjecture": false,
+   "kind": "certificate",
+   "module": "EcoLib.DScore.WeightCharter",
+   "public_since": "2026-08-30",
+   "rid": "canon:certificates/Run-132",
+   "schema": "ecolib-module/1",
+   "sha256": "d023308c3ef39c46bef809ce9d4716c73b34d74090ee7b80168bc070dd219643",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-132",
+   "theorems": 11,
+   "title": "D-Score robustness \u2014 does a parcel ranking survive disputed weights",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/CapacityHarmonization.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Economics",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/CapacityHarmonization.lean",
+     "sha256": "eb835e109f756c668ff77867dcd1b937eadca1dba55b636b510f1d662b7b165a"
+    }
+   ],
+   "fingerprint": "a744d086ac0992cd84417d2755bcc11801f05b6c13bf1a346ece24ba718a595f",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Economics.CapacityHarmonization",
+   "public_since": "",
+   "rid": "canon:series/CapacityHarmonization.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "7d034e6ce5d4f7ce847c82344a0acb76275a38c8d086f661af2f74e2ea69f62e",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 6,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/DPAC/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Economics",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/DPAC/ViridisRun150.lean",
+     "sha256": "c839ffd23143561fbe2cb2b709b086959bf6fc6fa1b941e0304c8a853d02fcb4"
+    }
+   ],
+   "fingerprint": "9c84ca9c9b7d74209578dc0f25a5ec56940aa583999037d7c58d2cfd24d65ff4",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.Economics.DualPriceAlignment",
+   "public_since": "2026-09-08",
+   "rid": "canon:series/DPAC",
+   "schema": "ecolib-module/1",
+   "sha256": "dc420eed728c8a36d59df523a106fec1eff4f77e55904616324987b982177925",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-150",
+   "theorems": 6,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/HarmonicValuation.lean",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Economics",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/HarmonicValuation.lean",
+     "sha256": "a7036c810f3fd526a53ea02fed27a08740e2b602a53f234ca9f723f34d9a9c25"
+    }
+   ],
+   "fingerprint": "0bfd7b36693428e85bbf7fb1c76f18f2e18b95d324f848c3722b5da956b369d0",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Economics.HarmonicValuation",
+   "public_since": "",
+   "rid": "canon:series/HarmonicValuation.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "eb1f95314091ee6084bd0f52ee06429f138632b4dd29e56a591b5b39a84d0615",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 3,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "runs/2026-11-02_P2/certification.json",
+    "provider": "ENGINE_V3_VERIFY",
+    "public_receipt": true,
+    "statement_id": "P2.Harmonization"
+   },
+   "deps": [],
+   "domain": "Economics",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "lean/ViridisStatements/P2/Harmonization.lean",
+     "sha256": "48934ecb301f858b8332eea15194ff42a119fd7c1c7a7402089467a4994b3dd7"
+    },
+    {
+     "file": "runs/2026-11-02_P2/proofs/P2.Harmonization.lean",
+     "sha256": "1bcfdf8580578e7aec5c34f539fe0f3994119c63e78fbf5285aa44ff270df3b1"
+    }
+   ],
+   "fingerprint": "e0e90bd81fa2b7796caa56b62486a182276784c027c98cde3621753748f6bdac",
+   "intelligence_bound_conjecture": false,
+   "kind": "record",
+   "module": "EcoLib.Economics.P2Harmonization",
+   "public_since": "2026-11-02",
+   "rid": "record:P2.Harmonization",
+   "schema": "ecolib-module/1",
+   "sha256": "1799e35282fb0669853a90a22249e1f81dc683df9cfa1ce30870798465b655da",
+   "source_commit": "d77d4365f206c892f600dd69d2225300f3be72a9",
+   "source_repo": "jdhart81/viridis-research",
+   "source_run": "2026-11-02_P2",
+   "theorems": 7,
+   "title": "Re-certifying the Viridis OS Decision Kernels: A Lean Proof of the Harmonization Scalar-Price Welfare Core",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "certificate_status": "LEAN_ZERO_SORRY_CERTIFIED",
+    "depth": "elementary",
+    "evidence": "certificates/Run-139/",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": true
+   },
+   "deps": [],
+   "domain": "Economics",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "certificates/Run-139/VERIFICATION_CANDIDATE.lean",
+     "sha256": "26144b575077db3d20d650a13321abf99d9fd5105d01209e760bdaa5130b8530"
+    }
+   ],
+   "fingerprint": "62f1051e1539bb6af65cdd99e95a1c3e960cea9d5fa1b27ccb4f70f694b1ba5b",
+   "intelligence_bound_conjecture": false,
+   "kind": "certificate",
+   "module": "EcoLib.Economics.RetrofitWaterFilling",
+   "public_since": "2026-08-30",
+   "rid": "canon:certificates/Run-139",
+   "schema": "ecolib-module/1",
+   "sha256": "6fbfbf1e95853407dd93204eece3b2f8b1921df2fdcce8a6a0fb94a61bc73668",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-139",
+   "theorems": 6,
+   "title": "Ecological-thermodynamic capital allocation",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/SRA/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Economics",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/SRA/ViridisRun172.lean",
+     "sha256": "83bcd018520a3fc27a8d3d2d24531d605be71c2421733fb088d7de0e2de89fc9"
+    }
+   ],
+   "fingerprint": "e19853cd3d36c06de36868f0a602c03e915348b95e2db30dd3a874a4cd95fa19",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.Economics.StewardshipReserve",
+   "public_since": "2026-09-27",
+   "rid": "canon:series/SRA",
+   "schema": "ecolib-module/1",
+   "sha256": "2a1469bf2cb3966cd1908d686e326dd099cd51f7564031add13c9fe5ae589899",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-172",
+   "theorems": 4,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "os/functions/stewardship-setpoint-direction/function.json",
+    "provider": "CANON_CI_SPINE_BUILD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Economics",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "StewardshipSetpoint.lean",
+     "sha256": "ec445431680117ed9efb7b3b857071f55bf3704dcda980da39f372515d2fb6c8"
+    }
+   ],
+   "fingerprint": "8d1440c7778e07b34dcba3316b667600830e797ece993f54022a7a50f417c87b",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Economics.StewardshipSetpoint",
+   "public_since": "",
+   "rid": "canon:StewardshipSetpoint.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "f8153c8318da5d1a580a8a65df3cbd8ebfb55c92fbee3f1202cb3769c298eaba",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 13,
+   "title": "Stewardship setpoint \u2014 which way to move capacity toward D*",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/SDPN/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Economics",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/SDPN/ViridisRun159.lean",
+     "sha256": "349cb6ba4171db9d4d36f1440e831797f8c1bed59a45a98b23b9e5b06d5a6a79"
+    }
+   ],
+   "fingerprint": "5be3b77d476006a54b725e5c3eda6d7da0907aed2e52142603fb61368f3e60b7",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.Economics.SwitchingDissipationPayback",
+   "public_since": "2026-09-13",
+   "rid": "canon:series/SDPN",
+   "schema": "ecolib-module/1",
+   "sha256": "90b4b19d895cb62f35b3b54a0cbce1eb950d612d3d12898e523503b161d23ed1",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-159",
+   "theorems": 11,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "os/functions/mutualist/function.json",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Economics",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "series/SymbioticRiskPremium.lean",
+     "sha256": "7d2c830b8ac412592ce0b5d6bdbdfddbc410223c5e5269aa3321b946f97d31c7"
+    }
+   ],
+   "fingerprint": "415046f428f29abf13cea76640346af0362eff2f11e9bf57caf4145f6da66e4d",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Economics.SymbioticRiskPremium",
+   "public_since": "",
+   "rid": "canon:series/SymbioticRiskPremium.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "7ca388dc2ea6cc2e5fa13bdb503d4afdf70d6623d3d9660fb346111f8d24c889",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 9,
+   "title": "Mutualist \u2014 natural-capital risk-premium pricing",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/ThermodynamicDiscounting.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Economics",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/ThermodynamicDiscounting.lean",
+     "sha256": "5b6e5d62a493f801397a6e696e1bf6aa349d5ce6f6cc096f527883b5537f42dd"
+    }
+   ],
+   "fingerprint": "069ae4fe97bb5336bcd224abe5da4e6c15e9ec8c9117789e6629663e3001dc29",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Economics.ThermodynamicDiscounting",
+   "public_since": "",
+   "rid": "canon:series/ThermodynamicDiscounting.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "6e3063b08e441cb8e76d6393ef945bdc931bca8464a7fb4d742e305e9823d37e",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 6,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "os/functions/universal-waterfilling-optimum/function.json",
+    "provider": "CANON_CI_SPINE_BUILD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Economics",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "UniversalWaterfilling.lean",
+     "sha256": "14698b7ded717104f2570d5442adf614af4db45ec63efe23a30695545f435c3d"
+    }
+   ],
+   "fingerprint": "2cba919536bd2bdef8374732bcc41512885e0abaac2e758cbdd75862cc0e2837",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Economics.UniversalWaterfilling",
+   "public_since": "",
+   "rid": "canon:UniversalWaterfilling.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "1421c1a3777fa8615bee7cfbac3e12fc81343a934e2a14762b4f0cad6d183523",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 8,
+   "title": "Universal water-filling \u2014 the equimarginal split is optimal",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "certificate_status": "LEAN_ZERO_SORRY_CERTIFIED",
+    "depth": "elementary",
+    "evidence": "certificates/Run-138/",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": true
+   },
+   "deps": [],
+   "domain": "Ecosystems",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "certificates/Run-138/VERIFICATION_CANDIDATE.lean",
+     "sha256": "1830f9cf99db8a26fb394dcdd5d343c866803495856f70258680ec9977ed4a73"
+    }
+   ],
+   "fingerprint": "3d26a2e9954e25562eb167e7ed19b3dc27c2e0a46700f660c793a5fa3ba704d6",
+   "intelligence_bound_conjecture": false,
+   "kind": "certificate",
+   "module": "EcoLib.Ecosystems.AlignmentCone",
+   "public_since": "2026-08-30",
+   "rid": "canon:certificates/Run-138",
+   "schema": "ecolib-module/1",
+   "sha256": "4fa988d4b77511c4fee5f8e8a5d5efed6955a0e934a952b7b1a502bc6fad435e",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-138",
+   "theorems": 9,
+   "title": "The Gaian Alignment Cone Certificate: When Local Directional Bounds Survive Aggregation",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "os/functions/biosphere-erasure-floor/function.json",
+    "provider": "CANON_CI_SPINE_BUILD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Ecosystems",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "BiosphereErasureBound.lean",
+     "sha256": "5daf77e7ca767afe544d1bf112bf8fb22a7daec2b1005e2c0da566a2e55493b9"
+    }
+   ],
+   "fingerprint": "90da3117cbe7d0f6a53828583623ae6d99119c41c677e5a21cdf0e6172ed1161",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Ecosystems.BiosphereErasureBound",
+   "public_since": "",
+   "rid": "canon:BiosphereErasureBound.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "5627c587f42e99ca43c797d76d05f1191e9739e28d23e7dd72337e9815c06878",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 5,
+   "title": "Biosphere erasure floor \u2014 total erasure cost is at least N\u00b7\u03b5_L",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "Bridge_BiosphereProductivity.lean",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Ecosystems",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "Bridge_BiosphereProductivity.lean",
+     "sha256": "7eeeaecbd866eabf497dcdbbcda480510df9fa58dab8e969354911a19f04c01a"
+    }
+   ],
+   "fingerprint": "4e734c29fe1bee14663158aa9ac02ebc7eb3188c4a45082920ab05a4d4eb0bcc",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Ecosystems.BiosphereProductivity",
+   "public_since": "",
+   "rid": "canon:Bridge_BiosphereProductivity.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "ce11587c4106ccdaa77efb0a7d3f58448809287039bd35b2a07c3e7313603a39",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 6,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "ConservationOperator.lean",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Ecosystems",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "ConservationOperator.lean",
+     "sha256": "0eaefedb7c594e9c0d9fe6909d23d21373dc1d03bb86c8a8d770afcbaa3abdd9"
+    }
+   ],
+   "fingerprint": "a802457cee6017aa884f81899ea2d2db4292b12f16cb5481e13397e458d9d7ad",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Ecosystems.ConservationOperator",
+   "public_since": "",
+   "rid": "canon:ConservationOperator.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "4b22c3bec026ca4f705ab536b9465e6fa3e71306acadca71e9bb57c8a0ca899e",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 7,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "EcoChain_DendriticCorridor.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Ecosystems",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "EcoChain_DendriticCorridor.lean",
+     "sha256": "676541790a5d32b8a975a07eada76d589a768c964bb2224ecc7eb835af8f2b8e"
+    }
+   ],
+   "fingerprint": "7d82712386f189c2cc4113596a8e4330bcea2f5b31e803273b313b220f6a27b1",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Ecosystems.DendriticCorridor",
+   "public_since": "",
+   "rid": "canon:EcoChain_DendriticCorridor.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "d92a1597650d70762f2c1855eea8f292730a92c527f366e1cf1c760f5b31bdf3",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 7,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "Bridge_EcoChainInstrument.lean",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Ecosystems",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "Bridge_EcoChainInstrument.lean",
+     "sha256": "26ead455648c0634df9faf3f18fe2c9222dbc8d5a276c1eab2eb354c5c03ba78"
+    }
+   ],
+   "fingerprint": "01c3b7eb7a6b5f31dde29770de47baefaeb00058019362ca024cc162f4a79014",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Ecosystems.EcoChainInstrument",
+   "public_since": "",
+   "rid": "canon:Bridge_EcoChainInstrument.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "f077758220ea89a51f8b523655ec3595cd7bcbf5e80ae3feb2b47cbd4ba4f391",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 4,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "os/functions/harmonization/function.json",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Ecosystems",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "series/GaianHarmonization.lean",
+     "sha256": "cfdead658b1373cd311ac816f88867c5fd429a708e813a23a3293c901d110aec"
+    }
+   ],
+   "fingerprint": "c54f78dbfc798c71a2dafbd6d69116246c045c590b65bfecc5d6481dd89bfb9e",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Ecosystems.GaianHarmonization",
+   "public_since": "",
+   "rid": "canon:series/GaianHarmonization.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "2072de6ad0dce71c2699d244ecb168c95a8bceedfc41e693824a57f12c7acb19",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 10,
+   "title": "Harmonization \u2014 single-price coordination toward a shared target",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/GaianMutualismSelection.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Ecosystems",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/GaianMutualismSelection.lean",
+     "sha256": "f89adfd9e01be2b50f5b243f9bfe56490c29239def8020bc55612ae08cf76ea3"
+    }
+   ],
+   "fingerprint": "243f653655b483a1580b51a4bd8da8385093c007ba868a0ff6a970677f56eeea",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Ecosystems.GaianMutualismSelection",
+   "public_since": "",
+   "rid": "canon:series/GaianMutualismSelection.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "bedb74fe469fb57ed49e488c9496a4ae766e84f9cf6f2b3db56361afb9affc69",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 15,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/JMSF/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Ecosystems",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/JMSF/ViridisRun174.lean",
+     "sha256": "5914ede7a3ee10ca962cdbc6508fd5191a0324581828944c74d5d31d9d2a1a11"
+    }
+   ],
+   "fingerprint": "8e4e8a80c57cf8616e12d522e5e2b932a17164170799fa4cab56eb6caac758d8",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.Ecosystems.JointMinimumFloor",
+   "public_since": "2026-09-27",
+   "rid": "canon:series/JMSF",
+   "schema": "ecolib-module/1",
+   "sha256": "c572dc1560369c34db8024235289dec79e9d9332d4acfef72de2923d3bf7eb63",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-174",
+   "theorems": 5,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/KSCT.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Ecosystems",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/KSCT.lean",
+     "sha256": "b27cf51bcb5b5e3a06ffdad8efe03f93ee07835ea8b1af73b7c40b83fa629be8"
+    }
+   ],
+   "fingerprint": "dc02e65b118d72ccbf4a8ac2d96bd98a35ab1100d805a5af676722ddf7475caf",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Ecosystems.KSCT",
+   "public_since": "",
+   "rid": "canon:series/KSCT.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "ff8946d7d460d943722a4de72383cc5fa2b4ae82a3f8fde890aae7d4ecc4cc25",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 4,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "os/functions/mutualistic-attestation-throughput/function.json",
+    "provider": "CANON_CI_SPINE_BUILD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Ecosystems",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "MutualisticAttestation.lean",
+     "sha256": "913685f9c6ac3a54f580a868b6ede8d5c2e7c1e799692c74f66cb577b2aedca5"
+    }
+   ],
+   "fingerprint": "601b8605e3e8ed2534975b1a5a45028bbd9f86e7e3c216cf9e6159000e23d670",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Ecosystems.MutualisticAttestation",
+   "public_since": "",
+   "rid": "canon:MutualisticAttestation.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "f01856ef5ecbf92569c8d231c94c6be27b81ee4a31ab391e178c1f72f9eb871f",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 19,
+   "title": "Mutualistic attestation \u2014 attester throughput speed limit",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/MutualisticInference.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Ecosystems",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/MutualisticInference.lean",
+     "sha256": "7eea642d4d68174c8acb0013919878c8c962a6c7c4b7bca8912278ff3526adec"
+    }
+   ],
+   "fingerprint": "9a5de13c16fc05a68a5363c9b488f03f921b4bc3e507e94a130a55ddb338e1f1",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Ecosystems.MutualisticInference",
+   "public_since": "",
+   "rid": "canon:series/MutualisticInference.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "97ff9b02d951f66065cc04973e3a8f28f839a1de3f507c5bd69e572bf1958b8c",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 6,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/RRFG/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Ecosystems",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/RRFG/ViridisRun153.lean",
+     "sha256": "d9906858150239657ef2facfc90a24030c63eead694c26eca1763d0a99766cd8"
+    }
+   ],
+   "fingerprint": "f30d732ee032ce22560b8d9a31e528aa831e1c9768ea0d3ffcaa7c0560dc8b9e",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.Ecosystems.ReciprocalRescue",
+   "public_since": "2026-09-13",
+   "rid": "canon:series/RRFG",
+   "schema": "ecolib-module/1",
+   "sha256": "05288f0e288e95c140b0a85cffcc3e71328639afa7ae276fa09718d9234168f5",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-153",
+   "theorems": 7,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/RAAC/ResponseAdjustedAlignment.lean",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Ecosystems",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/RAAC/ResponseAdjustedAlignment.lean",
+     "sha256": "67d50ed05fdd72153a3b73ad090c711f9d08acfb90d768150a24614211db2173"
+    }
+   ],
+   "fingerprint": "bc77220a74496950f362fdd62e9951adeeef4702554df831a7b2e14e5bb6f7da",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Ecosystems.ResponseAdjustedAlignment",
+   "public_since": "",
+   "rid": "canon:series/RAAC/ResponseAdjustedAlignment.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "67b6d87c93407e3512097f627b0937058041d1b010f7bdbcc362ee87cdc70ca7",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 5,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/SVON/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Ecosystems",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/SVON/ViridisRun155.lean",
+     "sha256": "4d2ce1821e24f16cb21dd8e0abb2dbb6e8763aee624eb460fc7359cd216de1c2"
+    }
+   ],
+   "fingerprint": "148a6bc94c5eba536976f0f3bb8c1c1a6e1cfd3c57fd6e1d75ccaa2744bc4487",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.Ecosystems.SharedVerificationOverhead",
+   "public_since": "2026-09-13",
+   "rid": "canon:series/SVON",
+   "schema": "ecolib-module/1",
+   "sha256": "52abacfdfe70bff807fbd15481d8938618b1a5674a7b34b9d65450d94a05e349",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-155",
+   "theorems": 8,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/SPLR/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Ecosystems",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/SPLR/ViridisRun169.lean",
+     "sha256": "068492251538894bb720ee1e7f3e101bfeded69a6c4f91e49892c78119b49ece"
+    }
+   ],
+   "fingerprint": "eacfcf918cf652cdec7de816887494f4844ce8ecea1902c6860cde9860533d3b",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.Ecosystems.SinglePartnerLossReserve",
+   "public_since": "2026-09-19",
+   "rid": "canon:series/SPLR",
+   "schema": "ecolib-module/1",
+   "sha256": "bd0ba26592fe313b70b62902b97386800056b8870888fceeee14ff17f3db773f",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-169",
+   "theorems": 8,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/SymbioticSpeedLimit.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Ecosystems",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/SymbioticSpeedLimit.lean",
+     "sha256": "62c5eee5f630bb4bebdd750c8bab742260626c4c86f30770382fd26458d4d4c4"
+    }
+   ],
+   "fingerprint": "fcea5b9ea383a43b8e3f1a8767a441ea639b9279a20c91b17ce6229dfaebdbac",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Ecosystems.SymbioticSpeedLimit",
+   "public_since": "",
+   "rid": "canon:series/SymbioticSpeedLimit.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "b7160cb191bfdd942df71c70161f547d8f12f75ecc7a55083a2248fdf2a572ff",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 10,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/VerificationPhaseTransition.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Ecosystems",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/VerificationPhaseTransition.lean",
+     "sha256": "e46ff30efaaca0d1378ab55d38d82c133e916969207df450a39201edc4cef714"
+    }
+   ],
+   "fingerprint": "1a6db647c4f7d234bcd3e166a25e6d8be7277929d9497121d7b63f9a9c4a007c",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Ecosystems.VerificationPhaseTransition",
+   "public_since": "",
+   "rid": "canon:series/VerificationPhaseTransition.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "14a9435c8d9d738555b11ffaf24afc4c617895eb2a77e157e2527aedb608cfba",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 8,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/KZSLTReprove.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Foundations",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/KZSLTReprove.lean",
+     "sha256": "d87775777941af61a91f37dec52fcfb4030f8dc74fb33a3c719e8afc0c7980d7"
+    }
+   ],
+   "fingerprint": "a2ba959c6d4ee59058fe0b0e2a00d6de5c65ebf54bc9944c6b76e4da5ce718ee",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Foundations.KZSLTReprove",
+   "public_since": "",
+   "rid": "canon:series/KZSLTReprove.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "13a4e86df38d86fa657272d198677adad81136098fbf349e4991a2f14c16e08b",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 10,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/MIST.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Foundations",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/MIST.lean",
+     "sha256": "db7a69eb3cb06fae5c4e9d6381e014d928c6aae1e3febe610129f821a4ee5bcd"
+    }
+   ],
+   "fingerprint": "e8a24c20dae5028c72d95641d049aae5120ab8ba823dd64acfaf8b5d9ca15957",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Foundations.MIST",
+   "public_since": "",
+   "rid": "canon:series/MIST.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "52b32bfa3e6edfd789c74a6b6460ea08da8d313f501bb22ab01f8fa326cb6f13",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 5,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "Bridge_MissionFeasibility.lean",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Foundations",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "Bridge_MissionFeasibility.lean",
+     "sha256": "80516440836868a1460e64f928e727a9cada59bb7b1dfcf5c8781c19ee146139"
+    }
+   ],
+   "fingerprint": "ea1b99cd517e57537ee2ef5c21665a3aa4c246833a28283acec5ac8936914b11",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Foundations.MissionFeasibility",
+   "public_since": "",
+   "rid": "canon:Bridge_MissionFeasibility.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "5e2bc6741016ea244a079aa2df9bb83331f3cbe299337f6ecebe750c603d7f53",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 5,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "runs/2026-10-28_P1/certification.json",
+    "provider": "ENGINE_V3_VERIFY",
+    "public_receipt": true,
+    "statement_id": "P1.BitQuad"
+   },
+   "deps": [],
+   "domain": "Foundations",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "lean/ViridisStatements/P1/BitQuad.lean",
+     "sha256": "cd3cdeba48f67f9545fb6945c87037893aa98b018922d3d0b7220cc389c98e23"
+    },
+    {
+     "file": "runs/2026-10-28_P1/proofs/P1.BitQuad.lean",
+     "sha256": "328a9a292c6c09accf3439cb81f2fce20d97efa7ee1eeb8a9acc9d72e6d3c77f"
+    }
+   ],
+   "fingerprint": "513b32c61429b3fb02fbfa073642be64a2395bdd96d1774ef393830b9b3d874b",
+   "intelligence_bound_conjecture": false,
+   "kind": "record",
+   "module": "EcoLib.Foundations.P1BitQuad",
+   "public_since": "2026-10-28",
+   "rid": "record:P1.BitQuad",
+   "schema": "ecolib-module/1",
+   "sha256": "3ce7b02c686e34c76056688b8d28417bca905aea8d59b8b095287e9e4dd4d9b9",
+   "source_commit": "d77d4365f206c892f600dd69d2225300f3be72a9",
+   "source_repo": "jdhart81/viridis-research",
+   "source_run": "2026-10-28_P1",
+   "theorems": 7,
+   "title": "The 8-connected bit-quad Euler formula for finite rasters: a Lean proof by vertex double counting",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/TCT.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Foundations",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/TCT.lean",
+     "sha256": "6c68ba3a620db4a725f70541f30cbcbf746e1c0b007460edbf19ab9640375f14"
+    }
+   ],
+   "fingerprint": "e78e1a2597abe827d51d723ebf622acc181715a177533a3d63be4138a8c2d338",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Foundations.TCT",
+   "public_since": "",
+   "rid": "canon:series/TCT.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "93f76201d289cfd4a6e4f41c80c1bf804236d5aa006fd6b4c1826a5a4db3035c",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 4,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "P0_IntelligenceBound/Current.lean",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "IntelligenceBound",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "P0_IntelligenceBound/Current.lean",
+     "sha256": "b003677fd2ab703e9c0440f06f234ccc578e098eac4d1fba5d79109716e643a6"
+    }
+   ],
+   "fingerprint": "0abd066f82f87b5b33cf986488b2b21353318c0d952ae96f4f278b495fb09df6",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.IntelligenceBound.Core",
+   "public_since": "",
+   "rid": "canon:P0_IntelligenceBound/Current.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "549c912e258a1492d1ee71468f486f3be7e0a7db665af3f096191b879f475916",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 22,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/TDCIL/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "IntelligenceBound",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/TDCIL/VERIFICATION_CANDIDATE.lean",
+     "sha256": "95b9f439ca1092a908842ecfda70bfe1257ac5a2f35fec5f6c45d6b31a0ba76d"
+    }
+   ],
+   "fingerprint": "5a8f330ee98524306742d63b8612256ed0cb6ae948669114bcbfa9f2a39e8845",
+   "intelligence_bound_conjecture": true,
+   "kind": "series",
+   "module": "EcoLib.IntelligenceBound.DutyCycleLedger",
+   "public_since": "2026-09-01",
+   "rid": "canon:series/TDCIL",
+   "schema": "ecolib-module/1",
+   "sha256": "0192705b7c4a7931f6035736affc8fc5ce2e29601d33cae217c37a08cb324e20",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-147",
+   "theorems": 6,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/FOIEB/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "IntelligenceBound",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/FOIEB/ViridisRun178.lean",
+     "sha256": "412bf9973f747ee6d7b4b04ab814ad2cca8ee6b3b143d775b366919b58c02b30"
+    }
+   ],
+   "fingerprint": "09a7a83cdb2f27b5da2999daec4d2306b9678041cad6ae186cea956f3f90ec4a",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.IntelligenceBound.FixedOverheadEnergy",
+   "public_since": "2026-09-27",
+   "rid": "canon:series/FOIEB",
+   "schema": "ecolib-module/1",
+   "sha256": "ed68d5effa66f41483f217f86e8a0010b84a67892cd1927c9046dff7b10dcc8a",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-178",
+   "theorems": 7,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "os/functions/mission-feasibility-corrigibility/function.json",
+    "provider": "CANON_CI_SPINE_BUILD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "IntelligenceBound",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "P3_Impossibility.lean",
+     "sha256": "0bf9766985128788606428999c824ff1c6d1f585f313de9c016f2e057f8cb880"
+    }
+   ],
+   "fingerprint": "e116b81fd20e9321999b7b7ac14f7ec42863769563f0b78d3fa506f732579eef",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.IntelligenceBound.Impossibility",
+   "public_since": "",
+   "rid": "canon:P3_Impossibility.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "a1c8ef44285a5d4f76b7289f2eb8de68c0def8043a1f137016144081de69a4ec",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 8,
+   "title": "Conservation feasibility \u2014 corrigibility rate ceiling, conditional on the Intelligence Bound premises",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "P5_SLSPT/function.json",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "IntelligenceBound",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "P5_SLSPT/IntelligenceBound.lean",
+     "sha256": "ebd8980a134a28e49f4438081753fe1525d8af3b07377e690788646d162180fa"
+    }
+   ],
+   "fingerprint": "1270476a84bf37a998dcd3daf2f3dba89f0a2483f8fa19a8225934fc4731e517",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.IntelligenceBound.SLSPTIntelligenceBound",
+   "public_since": "",
+   "rid": "canon:P5_SLSPT/IntelligenceBound.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "0a0ba38bca14bde3ed9d1dcbefeb487989bb28a4cc31589e2841a344154306b1",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 5,
+   "title": "Inverse-square shadow-price and capacity planner",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "P5_SLSPT/function.json",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "IntelligenceBound",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "P5_SLSPT/InverseSquare.lean",
+     "sha256": "3b7d8eb4b43af18fa96571b8c11330eace642512d847dc6ae0810cf21c1ae9d1"
+    }
+   ],
+   "fingerprint": "b86658d80320f6287b0edd056440cf45f80fc59874db6a2ac9e9e465096c9558",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.IntelligenceBound.SLSPTInverseSquare",
+   "public_since": "",
+   "rid": "canon:P5_SLSPT/InverseSquare.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "a56bc81e17a415f49587821e3b23ddd11a34e3dc042b96252126d03ab1691330",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 5,
+   "title": "Inverse-square shadow-price and capacity planner",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "P5_SLSPT/function.json",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "IntelligenceBound",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "P5_SLSPT/ShadowPrice.lean",
+     "sha256": "1d2fba87285b50588dd3b4a38eec6080099b6504693b788aecf9230982c3a21f"
+    }
+   ],
+   "fingerprint": "d1cbfcdcbcbeffecaf29ec4a05856872edb1159e98553410cce48347438b45d2",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.IntelligenceBound.SLSPTShadowPrice",
+   "public_since": "",
+   "rid": "canon:P5_SLSPT/ShadowPrice.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "26b5ff6d15b0a30c15f9fd6e4f91cb0ab40156a8561c5ff6b23caa3d95071de8",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 4,
+   "title": "Inverse-square shadow-price and capacity planner",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "P5_SLSPT/function.json",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "IntelligenceBound",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "P5_SLSPT/ShadowPriceLevelCurves.lean",
+     "sha256": "faf3151d33cdc5e8b1c25faac0d973b0ed0d92737bbde0b90ce5cdf36be340bf"
+    }
+   ],
+   "fingerprint": "be1557ac40c76c94eeb5bedb1c9916987a73b80ab30cc67f2f1d4925f3bb427a",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.IntelligenceBound.SLSPTShadowPriceLevelCurves",
+   "public_since": "",
+   "rid": "canon:P5_SLSPT/ShadowPriceLevelCurves.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "2a3789790595c257ef6a9a7b4591f298e250310c48d1320626beeae8b9171487",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 5,
+   "title": "Inverse-square shadow-price and capacity planner",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "P5_SLSPT/function.json",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "IntelligenceBound",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "P5_SLSPT/SLSPTTowerOrdering.lean",
+     "sha256": "cf15279d012c80cd84a35196734a542753b46f01b65953d17d0abb2cad646ba8"
+    }
+   ],
+   "fingerprint": "7e00decbee33fab33c07cbcaa79a66c83ee241a8f56e7cf8123e0d461ba1eb29",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.IntelligenceBound.SLSPTTowerOrdering",
+   "public_since": "",
+   "rid": "canon:P5_SLSPT/SLSPTTowerOrdering.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "069b6453a51738fa1288f3d7b6d48816e23f3c56fbd68922fa6f5458b3979ad4",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 5,
+   "title": "Inverse-square shadow-price and capacity planner",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/SARN/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "IntelligenceBound",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/SARN/ViridisRun162.lean",
+     "sha256": "56743dd0c0b8d3d63395f8fe2a6b86b77f4c756ff96816a2fd6e187f1220fa14"
+    }
+   ],
+   "fingerprint": "32e3be4223ab8af5a62c15ffbe3f2801ac51088e82e8d0a145af9dae792ee3b5",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.IntelligenceBound.SequentialAlignmentRetention",
+   "public_since": "2026-09-13",
+   "rid": "canon:series/SARN",
+   "schema": "ecolib-module/1",
+   "sha256": "ee7d8ee62159ec07433156edc26aff41fcc294638e793df066d7e83b95d41ec5",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-162",
+   "theorems": 8,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "certificate_status": "LEAN_ZERO_SORRY_CERTIFIED",
+    "depth": "elementary",
+    "evidence": "certificates/Run-137/",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": true
+   },
+   "deps": [],
+   "domain": "IntelligenceBound",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "certificates/Run-137/VERIFICATION_CANDIDATE.lean",
+     "sha256": "afe2ac826cb598d998a4e32baa19c17ffba3df7706b8dc0015d36c1ff5c65daa"
+    }
+   ],
+   "fingerprint": "85013779e98b662f4ddd97473452fd104a23a8c13a5b5de47b0cbc07558eafff",
+   "intelligence_bound_conjecture": true,
+   "kind": "certificate",
+   "module": "EcoLib.IntelligenceBound.SymbioticAccounting",
+   "public_since": "2026-08-30",
+   "rid": "canon:certificates/Run-137",
+   "schema": "ecolib-module/1",
+   "sha256": "0b0414fbca3323195cd359ca04ff4b66edc7f4dfce317644f05195cbcddc2760",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-137",
+   "theorems": 10,
+   "title": "The Symbiotic Accounting Certificate: Complementarity Does Not Create Thermodynamic Capacity",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "os/functions/symbiotic-surplus/function.json",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "IntelligenceBound",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "SymbioticIntelligenceBound.lean",
+     "sha256": "c3b54a741ebcc7e3953dd9e15f2b7a3d1cb3529ae38c9bb8cb884fcfbe5ea938"
+    }
+   ],
+   "fingerprint": "79cc4f5ff7b8da1ad17d28ba9128acfe1ae031b72b8c9f9b5a7829886b982672",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.IntelligenceBound.SymbioticIntelligenceBound",
+   "public_since": "",
+   "rid": "canon:SymbioticIntelligenceBound.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "93cc7359f4393834781c8e7757efb47d807f78a6bee259597cc9235c19062289",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 5,
+   "title": "Symbiotic reciprocity and surplus audit",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/TCTSI/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "IntelligenceBound",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/TCTSI/ViridisRun157.lean",
+     "sha256": "503e47c5882b8ef6992a712a55f9587a4562ee74e712d900d7360772b109f3e8"
+    }
+   ],
+   "fingerprint": "cedb90423cb455809ab0537152a88878c74e58ea22bf74bf896521beeb758ac3",
+   "intelligence_bound_conjecture": true,
+   "kind": "series",
+   "module": "EcoLib.IntelligenceBound.SymbioticTransferThreshold",
+   "public_since": "2026-09-13",
+   "rid": "canon:series/TCTSI",
+   "schema": "ecolib-module/1",
+   "sha256": "10aa8148ba279131e890ecd05f4e1d0878a3d65c614a0237bceac5c43adbb849",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-157",
+   "theorems": 10,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "os/functions/thermodynamic-economics-production-bound/function.json",
+    "provider": "CANON_CI_SPINE_BUILD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "IntelligenceBound",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "P4_ThermodynamicEconomics.lean",
+     "sha256": "3a82c580316b5194c13b0d04ccf67285e898c74bcd938fa9e27c40e1025de328"
+    }
+   ],
+   "fingerprint": "9dd5352bfc9d0a940d59aff7c31774f67b6ea42ea1b28ab690a6755bd35ac7da",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.IntelligenceBound.ThermodynamicEconomics",
+   "public_since": "",
+   "rid": "canon:P4_ThermodynamicEconomics.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "24ccd377be52aeb38c02327984fdfe28f1f833add1f78e66a518e48a4ba175b0",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 8,
+   "title": "Thermodynamic economics \u2014 production bound P\u00b7D/(k_B\u00b7T\u00b7ln 2), conditional on the Intelligence Bound premises",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "os/functions/bounded-memory-erasure-floor/function.json",
+    "provider": "CANON_CI_SPINE_BUILD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Learning",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "BoundedMemoryLearning.lean",
+     "sha256": "910407243266a4a2793e78184679e9ed24f67a57efca7444d4be871f069514a6"
+    }
+   ],
+   "fingerprint": "682f3efd407084c6fcdaffc901c6beac3b5f86f939b0aad1ac72beee3a1bb7fa",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Learning.BoundedMemoryLearning",
+   "public_since": "",
+   "rid": "canon:BoundedMemoryLearning.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "4be7085e8bb2b950494e2afc6aa9fdd25fa412cd4b72f6081a213a2c9343d88d",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 4,
+   "title": "Bounded-memory learning \u2014 erasure dissipation floor",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "certificate_status": "LEAN_ZERO_SORRY_CERTIFIED",
+    "depth": "elementary",
+    "evidence": "certificates/Run-131/",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": true
+   },
+   "deps": [],
+   "domain": "Learning",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "certificates/Run-131/VERIFICATION_CANDIDATE.lean",
+     "sha256": "842943f1da4b1dc2e55b07d2f9eb0edbeffe381e82bc44b51cabd08296295412"
+    }
+   ],
+   "fingerprint": "03ee543736e76696a307a8ac0fc8aee45c943461f6f75a66b8a2c1c9c3ccf0e4",
+   "intelligence_bound_conjecture": false,
+   "kind": "certificate",
+   "module": "EcoLib.Learning.CognitiveSwitchingHysteresis",
+   "public_since": "2026-08-30",
+   "rid": "canon:certificates/Run-131",
+   "schema": "ecolib-module/1",
+   "sha256": "a28b9b844eb1a90786d99a4681dbf15d8b2efdd6ef63949ab3a3d457a4b82fb6",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-131",
+   "theorems": 6,
+   "title": "Directional switching hysteresis certificate",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/S6_CognitionLearning/CognitiveThroughput.lean",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Learning",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/S6_CognitionLearning/CognitiveThroughput.lean",
+     "sha256": "ec7fbe0f6defc0cbf02f7143e0f1ac2ac2bac95d44f972358f4a3cfc6cfa4989"
+    }
+   ],
+   "fingerprint": "7fe320ea30d340f5d619d0a710714143e5ffe642991695178e18f87cb9e6dac8",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Learning.CognitiveThroughput",
+   "public_since": "",
+   "rid": "canon:series/S6_CognitionLearning/CognitiveThroughput.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "0a06276185e47641a5c74af89fec7cca778a76e8c9734ff5517007668d6487ec",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 5,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/DissipativeGeneralization.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Learning",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/DissipativeGeneralization.lean",
+     "sha256": "3c01e85505e4056f638700eb830f05f36ffc222eb6ff289a64c29996157a6391"
+    }
+   ],
+   "fingerprint": "eb9c7c2949e43322f9fc8e0f1cec52d77c2e7874b4c24e0f5cb167d9e7403f05",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Learning.DissipativeGeneralization",
+   "public_since": "",
+   "rid": "canon:series/DissipativeGeneralization.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "a13d8a975aa1ef757a5e04cd07ac2aa36dfca743c0a1fabc1441f94adf3c95c4",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 6,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "certificate_status": "LEAN_ZERO_SORRY_CERTIFIED",
+    "depth": "elementary",
+    "evidence": "certificates/Run-123/",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": true
+   },
+   "deps": [],
+   "domain": "Learning",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "certificates/Run-123/VERIFICATION_CANDIDATE_ATTEMPT_4.lean",
+     "sha256": "3d63f48e2b90ecbfe02b3a1b0e2e2df9630fd6db8fe2306f5d1e663976cb438d"
+    }
+   ],
+   "fingerprint": "cb12d87e9fdd79be1a4dade6a3a2213db0768874a82c8009bbc49e0210eb7ed6",
+   "intelligence_bound_conjecture": false,
+   "kind": "certificate",
+   "module": "EcoLib.Learning.FreeEnergyFloorHabitable",
+   "public_since": "2026-08-29",
+   "rid": "canon:certificates/Run-123",
+   "schema": "ecolib-module/1",
+   "sha256": "5027215a641656b5c5c911cb54ca7959decbb051e5362836c868d9f459a8b524",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-123",
+   "theorems": 7,
+   "title": "A Free-Energy Floor for Habitable-State Concentration: A Coarse-Grained Relative-Entropy Audit for Gaian Models",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/GrokkingNucleation.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Learning",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/GrokkingNucleation.lean",
+     "sha256": "f1e7a8a1c24887bee52ea1fae376f07a1698e4386676c349466bdb4c32122ac5"
+    }
+   ],
+   "fingerprint": "90e7c4c89c8a5c8e92e3b1492d6de77a94a845ef8c9c012b1048e02dd04a0171",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Learning.GrokkingNucleation",
+   "public_since": "",
+   "rid": "canon:series/GrokkingNucleation.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "9833e0944be0d680d107c990181127449430d4b27d4d61d22f02d1e03c2c6552",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 5,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/S6_CognitionLearning/HarmonizedDescent.lean",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Learning",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/S6_CognitionLearning/HarmonizedDescent.lean",
+     "sha256": "1f357e25b51dd37d348a34d22f3e6087993fe5078e180d98fa36fbfd9c2b71f9"
+    }
+   ],
+   "fingerprint": "b7ac3b282522ecf6e9e322a52e0b4807e6d4e7a2318c1f9d03d7cfac7a8ab4e6",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Learning.HarmonizedDescent",
+   "public_since": "",
+   "rid": "canon:series/S6_CognitionLearning/HarmonizedDescent.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "923a526e5eb9681e443b12629d5e50d2c88cbc57366895c6821f475796e29529",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 4,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "certificate_status": "LEAN_ZERO_SORRY_CERTIFIED",
+    "depth": "substantial",
+    "evidence": "certificates/Run-121/",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": true
+   },
+   "deps": [],
+   "domain": "Learning",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "certificates/Run-121/VERIFICATION_CANDIDATE.lean",
+     "sha256": "6d90c74247be843e629ce558b5863516f7eeba49ff8bb2f11efad02ac4463eb3"
+    }
+   ],
+   "fingerprint": "98510f0613d769def9bf6a4874cbe93e8c6be47df073406b6f63f161864c6e35",
+   "intelligence_bound_conjecture": false,
+   "kind": "certificate",
+   "module": "EcoLib.Learning.InformationSymbiosisBalance",
+   "public_since": "2026-08-29",
+   "rid": "canon:certificates/Run-121",
+   "schema": "ecolib-module/1",
+   "sha256": "afa7c3cd1821267bc629ec2760278966407ea8e8e9d21664e863a2ce2e121bc2",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-121",
+   "theorems": 63,
+   "title": "Information Symbiosis Balance: A Conditional-Dependence Criterion for Cooperative Learning",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/MELT.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Learning",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/MELT.lean",
+     "sha256": "41a375313bd617545640257f531fada36b24e9bb855fcb2e6e3dd105ef58eb90"
+    }
+   ],
+   "fingerprint": "92dd7aaaeedf8504624ae87fd933a9fe92bbf5c5c0db3a9d25fbbaf643d6bae4",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Learning.MELT",
+   "public_since": "",
+   "rid": "canon:series/MELT.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "d79181a4af297cb9a314b92e58a467bb9385c8d43bd8c69ada47c2eae6f002d7",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 6,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/PlasticityVitrification.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Learning",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/PlasticityVitrification.lean",
+     "sha256": "17fe5e8836f7bc94adda23cda2536b3ac3f3e04d29b62af545decaaaba954bba"
+    }
+   ],
+   "fingerprint": "5d84955ba9d06102e4fa0f2e47025a84a52df6da6d6e39990f63437ef3f07712",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Learning.PlasticityVitrification",
+   "public_since": "",
+   "rid": "canon:series/PlasticityVitrification.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "b9ebf97124dfed053030b501c9c44a6e0d9d7ce9691377454d81e69309a9f4af",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 9,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/RDA/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Learning",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/RDA/ViridisRun176.lean",
+     "sha256": "fc168804abcbfbb620f323e9d69db5927e9727c4d8189f200e77600f2c7148c0"
+    }
+   ],
+   "fingerprint": "750a71aabef442356722269da0c60467fbd0767c7b3c80de3410bd510693c0ed",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.Learning.ReciprocalDistillationAccounting",
+   "public_since": "2026-09-27",
+   "rid": "canon:series/RDA",
+   "schema": "ecolib-module/1",
+   "sha256": "efffcca10ff45f7dddb38cd52ad26aa0f3d40f565ac44efd9ad9fa5ee4b0c224",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-176",
+   "theorems": 6,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/RECB/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Learning",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/RECB/ViridisRun164.lean",
+     "sha256": "5aa4a3eaf8972f41fc07e3b53f18015f1cb0dd6edcf28de0dc0f9618c5c5cde6"
+    }
+   ],
+   "fingerprint": "fe06b990d8c0cec12430bad5b8fb2f2912943a0f65e7991e4ad27736319b6a63",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.Learning.RelativeEntropyChangeBudget",
+   "public_since": "2026-09-13",
+   "rid": "canon:series/RECB",
+   "schema": "ecolib-module/1",
+   "sha256": "f62dc82837f5f290f3f61f1e8bc13f449f97b2426d13e25a013d0acdc14295f6",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-164",
+   "theorems": 9,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/RFC/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Learning",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/RFC/ViridisRun136.lean",
+     "sha256": "4d733e4ca7ebae4a7296304aeec76210b6d1cf7f79e12ad8493b72e3324d6c2d"
+    }
+   ],
+   "fingerprint": "2daac40a01284a8dfda2774da97a4e0840014f7aa171f1ab2d26bedb6a57ac7b",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.Learning.RetentionFloor",
+   "public_since": "2026-09-08",
+   "rid": "canon:series/RFC",
+   "schema": "ecolib-module/1",
+   "sha256": "448763db4ac77a960fe099f99f752392dc60dab0de099ea86fc1b49e254fd949",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-136",
+   "theorems": 8,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/SBCN/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Learning",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/SBCN/ViridisRun154.lean",
+     "sha256": "2a0a448ed5c6c44467e68136cd42a44cf8544bf939da998ae8c15615e94e978e"
+    }
+   ],
+   "fingerprint": "df05061c0f003f957e21e98b8d97ae58add9fe71fd5aa7c9ba9d9ee340d7d6df",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.Learning.SignedBiasCancellation",
+   "public_since": "2026-09-13",
+   "rid": "canon:series/SBCN",
+   "schema": "ecolib-module/1",
+   "sha256": "304f7b5e9554b05678c8e5029a717f89623d9f6d723f8351ffef6b6f7b3ae849",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-154",
+   "theorems": 8,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/TLRC/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Learning",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/TLRC/ViridisRun151.lean",
+     "sha256": "1e63ef236c7fdeab1d4b811d36d1232446d474682a318bfe4841d142e92a9628"
+    }
+   ],
+   "fingerprint": "36c886d8aa5472f2b67c213537d51c7f19817e21e87e9211d739998e14d28269",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.Learning.ThermalStepCorridor",
+   "public_since": "2026-09-13",
+   "rid": "canon:series/TLRC",
+   "schema": "ecolib-module/1",
+   "sha256": "55b7425fda0a36bff5b116eb5fbb3b17a89a201f3ec496f53de6b74f7896b078",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-151",
+   "theorems": 7,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "os/functions/thermodynamic-attention-waterfill/function.json",
+    "provider": "CANON_CI_SPINE_BUILD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Learning",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "ThermodynamicAttention.lean",
+     "sha256": "3c56af1a6bff69d2a567cc3a0cd221dfcd997fdd2136363d7ffaab76dc62a352"
+    }
+   ],
+   "fingerprint": "68566a20ddb4a0539b6ef12757e5966199da870716927720baebdcdbab1dfef0",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Learning.ThermodynamicAttention",
+   "public_since": "",
+   "rid": "canon:ThermodynamicAttention.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "e68d3b20ca885ff5532a9d1421296d45d4cba2eddd33e0d87ff22690e99cefea",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 12,
+   "title": "Thermodynamic attention \u2014 slower modes are filled first",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "certificate_status": "LEAN_ZERO_SORRY_CERTIFIED",
+    "depth": "substantial",
+    "evidence": "certificates/Run-129/",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": true
+   },
+   "deps": [],
+   "domain": "Monitoring",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "certificates/Run-129/VERIFICATION_CANDIDATE_V3.lean",
+     "sha256": "d5ac9ca2978b106699038d4d2672e3cf99939cbc8a0b7fedcd2e4fc01cf2b72b"
+    }
+   ],
+   "fingerprint": "98e03ce347cec27a439ccbc01b044a8ac840e56338e5eacb2bcee74388561e1a",
+   "intelligence_bound_conjecture": false,
+   "kind": "certificate",
+   "module": "EcoLib.Monitoring.AnytimeMonitoringChangeCertificate",
+   "public_since": "2026-08-30",
+   "rid": "canon:certificates/Run-129",
+   "schema": "ecolib-module/1",
+   "sha256": "f61290eed555c917bdbd68cc51bee6b4f54327d46645e9330642bf4366a67789",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-129",
+   "theorems": 77,
+   "title": "Anytime monitoring change certificate",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/FRCS/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Monitoring",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/FRCS/VERIFICATION_CANDIDATE.lean",
+     "sha256": "34a7bfcf02361a2900f95da1fb82383f91c71f005564d2384a79c94e8adbfc5c"
+    }
+   ],
+   "fingerprint": "26e8570a45e7e86cc520c060a0d1d3cb424d8035c132d5cc7c8d09dc921ef38c",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.Monitoring.FreshnessReserve",
+   "public_since": "2026-09-01",
+   "rid": "canon:series/FRCS",
+   "schema": "ecolib-module/1",
+   "sha256": "94babef165adeef4e28fd51e32f8b69d79fafa523765b19ae3771b74fa94faf7",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-148",
+   "theorems": 6,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/HarmonicEarlyWarning.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Monitoring",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/HarmonicEarlyWarning.lean",
+     "sha256": "91451408ea0a76360c2f27a15800e7aaf63d53daf33531ff70b02040ca21bf05"
+    }
+   ],
+   "fingerprint": "dd3e3ede8ef066d3ef0968292361efc0cf58d34fe06ae35cbee06bb20b1b6c87",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Monitoring.HarmonicEarlyWarning",
+   "public_since": "",
+   "rid": "canon:series/HarmonicEarlyWarning.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "e93cc93ad416d3764ec120e20c57c4131bb78b1ebb0fea7f98978241d8363645",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 11,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/PDC/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Monitoring",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/PDC/ViridisRun165.lean",
+     "sha256": "31db8476e072cfce6196036abc0d425b8ed374ab7106c0ce44874ce3729bf2b5"
+    }
+   ],
+   "fingerprint": "6e28051225c650245b8aa663aff15873ef82d831b635a158e39903b15a3e1c75",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.Monitoring.PairedDetectorCoverage",
+   "public_since": "2026-09-19",
+   "rid": "canon:series/PDC",
+   "schema": "ecolib-module/1",
+   "sha256": "a2c75e05ded78a37146f00ec28fe57794db225fe639bddac2deacc65a252466c",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-165",
+   "theorems": 7,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/StewardshipRevisit.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Monitoring",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/StewardshipRevisit.lean",
+     "sha256": "33b76ffef03aaeea3b18b4a1d64363b94823c8f3c9ae25719a36fb1d07043c37"
+    }
+   ],
+   "fingerprint": "bf837627121b2bc6b21ade1d3fb331974bcfa1e04e0ee84efe71afe1b3972124",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Monitoring.StewardshipRevisit",
+   "public_since": "",
+   "rid": "canon:series/StewardshipRevisit.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "df0dd6f3f12c7fb00c44abdb6253c203387e90d6ad05670ce6b888cc6777fde2",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 8,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/WuWeiSampling.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Monitoring",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/WuWeiSampling.lean",
+     "sha256": "2dd7cbc45790a075b2b1dd6fdd85ca532588fbabf6cf697175c16721c431d0c0"
+    }
+   ],
+   "fingerprint": "051f67c5fa231741cafe5506968116cb953d31f98467d8edecce0374f152b09d",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Monitoring.WuWeiSampling",
+   "public_since": "",
+   "rid": "canon:series/WuWeiSampling.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "e586298e65eda943f73426747cf4ac5801b3f52433fef19b9bf22f4d6c109838",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 10,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "os/functions/afforestation/function.json",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Restoration",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "series/AfforestationStewardship.lean",
+     "sha256": "3ebe33bfd6bd74124e87b5d7e73448db58e1459207fd6ff5c00a90fc3ac9526f"
+    }
+   ],
+   "fingerprint": "3d1371f2a52d9d8e041cf5ac6c1d97a9e11ffe037fdd219d13a020888920cced",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Restoration.AfforestationStewardship",
+   "public_since": "",
+   "rid": "canon:series/AfforestationStewardship.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "f7063c768c86c659f3c62b1b350c0f7ef9179c713d5383d79315dcd47e6f3750",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 5,
+   "title": "Afforestation \u2014 seeding efficiency and the 8\u00d7 edge-hostility lever",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "os/functions/carbon-continuity/function.json",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Restoration",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "releases/2026-08-08/Carbon_Continuity_After_Wildfire/lean/CarbonContinuity.lean",
+     "sha256": "899d3bb1929bac8d1ab6b760caffac428de115489e6fc7c1b2752e0769a77fc1"
+    }
+   ],
+   "fingerprint": "16580fbfb550ccb99f23590997b46b96a7834f7e6703ab9220ed9fa1c24cc6db",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Restoration.CarbonContinuity",
+   "public_since": "",
+   "rid": "canon:releases/2026-08-08/Carbon_Continuity_After_Wildfire/lean/CarbonContinuity.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "cc980e8b02ffa953056922180e819290ca0074483de24be34eeaee2c463134c7",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 6,
+   "title": "Carbon Continuity \u2014 wildfire recovery threshold diagnostic",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "releases/2026-08-08/The_Ecopoietic_Hedge/lean/EcopoieticHedge.lean",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Restoration",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "releases/2026-08-08/The_Ecopoietic_Hedge/lean/EcopoieticHedge.lean",
+     "sha256": "33c52fb5e837b37adc0f85c896375f8087e2ced2836222ad78c353778108b732"
+    }
+   ],
+   "fingerprint": "a5ac944aa4224c959c268ffaba615877c7534d9b20ebbd7d6b5a4e56cf97b230",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Restoration.EcopoieticHedge",
+   "public_since": "",
+   "rid": "canon:releases/2026-08-08/The_Ecopoietic_Hedge/lean/EcopoieticHedge.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "bbce9843f3b43049c1fef6557f50ebf4821fa796dd104980e4a5b95ef51f8383",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 6,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/EcopoieticOrdering.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Restoration",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/EcopoieticOrdering.lean",
+     "sha256": "c808d2f3fa598ca66e24bd1c7b5fc94fad85fbe36832c46b08a7b211c2876b6a"
+    }
+   ],
+   "fingerprint": "c9999a7f160d2edceda3007c40e0b8168870d01d63e5b513f5c4bec6f96f944d",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Restoration.EcopoieticOrdering",
+   "public_since": "",
+   "rid": "canon:series/EcopoieticOrdering.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "84db35fb9b6bdba9e12439b34f27e8f37bb935adcd7ea5bd216834b0ceda14b4",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 28,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/EcopoieticSuccession.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Restoration",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/EcopoieticSuccession.lean",
+     "sha256": "031be6a177b23b8d1c2f7a2a8e764c7c896f6082d6b58ed7b64b09350a18dec7"
+    }
+   ],
+   "fingerprint": "c950c1207a4800f8426f72f649842dce044dfc2c4bbcc0051b079a6c6c5dd724",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Restoration.EcopoieticSuccession",
+   "public_since": "",
+   "rid": "canon:series/EcopoieticSuccession.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "80b489f41ff88f3bdcb23352a21c6458919bbd379b8b570295c17c74387bc14e",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 11,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "os/functions/restoration/function.json",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Restoration",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "series/ForestNucleation.lean",
+     "sha256": "667a826a2e5befac67964b69670435362de2d3d792e163807c3bb7c2aec28132"
+    }
+   ],
+   "fingerprint": "af2157d0624d7a63f1a56560b21bcd9dd535476fbffd02ca316e8d0f77483ea1",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Restoration.ForestNucleation",
+   "public_since": "",
+   "rid": "canon:series/ForestNucleation.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "b884fd8d0033c6a55a350519f852cd63f1a4f8c16f94f81e60355cae3175d80d",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 4,
+   "title": "Restoration \u2014 nucleation planting design (critical cluster size n* + go/no-go)",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/FragmentationHysteresis.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Restoration",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/FragmentationHysteresis.lean",
+     "sha256": "9094ee2038fb4d5045b78f541f96f446aea56d1b55a97e59a50c66a7ac1ab9ad"
+    }
+   ],
+   "fingerprint": "0c0d34f05907b534a0057ad8b764f6435bd6fb5925e41b56f6e585b7d4fc5657",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Restoration.FragmentationHysteresis",
+   "public_since": "",
+   "rid": "canon:series/FragmentationHysteresis.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "ecdc8f7189e86110bbd6ae2f22a9443fa5799119589b9773b76de629b59df484",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 30,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/MutualistCoestablishment.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Restoration",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/MutualistCoestablishment.lean",
+     "sha256": "2764c87022f1996c07d05ce7a712bbff7867ea96e5da08f05588197147663ea3"
+    }
+   ],
+   "fingerprint": "8c3397159bf0b158c9a35f7b6422a6fe5b82e616a4507acbe05254c4be01e54e",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Restoration.MutualistCoestablishment",
+   "public_since": "",
+   "rid": "canon:series/MutualistCoestablishment.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "471f59e1d50bc99b3adf4336250b1075074850704f4e413f8519f825de46a541",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 15,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "runs/2026-11-01_P2/certification.json",
+    "provider": "ENGINE_V3_VERIFY",
+    "public_receipt": true,
+    "statement_id": "P2.Afforestation"
+   },
+   "deps": [],
+   "domain": "Restoration",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "lean/ViridisStatements/P2/Afforestation.lean",
+     "sha256": "2fc1cbb05d7780f266f9da9c00941ca1b7d8ebc703a11a25fc9bb23237a59436"
+    },
+    {
+     "file": "runs/2026-11-01_P2/proofs/P2.Afforestation.lean",
+     "sha256": "a179401aa4d0e0de8a14944fe4356287cdd2295f2d71d3fcd87a8093091ca48c"
+    }
+   ],
+   "fingerprint": "5b73d91214d1f578c1777e08aaca4b8309fcfc2df78cd7b18a30a56c0a6445ad",
+   "intelligence_bound_conjecture": false,
+   "kind": "record",
+   "module": "EcoLib.Restoration.P2Afforestation",
+   "public_since": "2026-11-01",
+   "rid": "record:P2.Afforestation",
+   "schema": "ecolib-module/1",
+   "sha256": "71e1dda8b87e129e33edfd850e08724557cd9f6e541fb7f367a9903a70dafd06",
+   "source_commit": "d77d4365f206c892f600dd69d2225300f3be72a9",
+   "source_repo": "jdhart81/viridis-research",
+   "source_run": "2026-11-01_P2",
+   "theorems": 3,
+   "title": "Re-certifying the Viridis OS Decision Kernels: A Lean Proof of the Afforestation Seeding Core",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "runs/2026-10-29_P2/certification.json",
+    "provider": "ENGINE_V3_VERIFY",
+    "public_receipt": true,
+    "statement_id": "P2.CarbonContinuity"
+   },
+   "deps": [],
+   "domain": "Restoration",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "lean/ViridisStatements/P2/CarbonContinuity.lean",
+     "sha256": "a5a6e8c63205b865da0df0c302f1926b48d1874ce1310053da6c1ae3104ffded"
+    },
+    {
+     "file": "runs/2026-10-29_P2/proofs/P2.CarbonContinuity.lean",
+     "sha256": "bfced37f622d1ab9921f2fe7bf02ffa7c88dbdeb1e53d3a250df0ff8f0f94f44"
+    }
+   ],
+   "fingerprint": "76a5ee7fa13393b318bfe12e807e2d167644d845ff420a072ca3f62367139eca",
+   "intelligence_bound_conjecture": false,
+   "kind": "record",
+   "module": "EcoLib.Restoration.P2CarbonContinuity",
+   "public_since": "2026-10-29",
+   "rid": "record:P2.CarbonContinuity",
+   "schema": "ecolib-module/1",
+   "sha256": "27630b559d1c176eb283bf52204f377e4804b7eef23beb95fb6e9661e92d795d",
+   "source_commit": "d77d4365f206c892f600dd69d2225300f3be72a9",
+   "source_repo": "jdhart81/viridis-research",
+   "source_run": "2026-10-29_P2",
+   "theorems": 3,
+   "title": "Re-certifying the Carbon Continuity Threshold: A Lean Proof of the Two-Pool Regenerative Coupling Condition under a Pinned Toolchain",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "runs/2026-10-31_P2/certification.json",
+    "provider": "ENGINE_V3_VERIFY",
+    "public_receipt": true,
+    "statement_id": "P2.Restoration"
+   },
+   "deps": [],
+   "domain": "Restoration",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "lean/ViridisStatements/P2/Restoration.lean",
+     "sha256": "fd40b113c06beaed7940b2bf84d931a8b9179dcabaf3c2d27f7300dc27ccff18"
+    },
+    {
+     "file": "runs/2026-10-31_P2/proofs/P2.Restoration.lean",
+     "sha256": "59286948a6b807ac2f16da6bc2558780d11987b2b01adde147a06d61e2eba4b1"
+    }
+   ],
+   "fingerprint": "9267af49211ecb59c821d73140b68a90ed81e84e71b767f5c32f4ed895404658",
+   "intelligence_bound_conjecture": false,
+   "kind": "record",
+   "module": "EcoLib.Restoration.P2Restoration",
+   "public_since": "2026-10-31",
+   "rid": "record:P2.Restoration",
+   "schema": "ecolib-module/1",
+   "sha256": "909d85856e5c848a8c479b8050bfded738fb804fa1a75a5ba1b853f1b32ec3ee",
+   "source_commit": "d77d4365f206c892f600dd69d2225300f3be72a9",
+   "source_repo": "jdhart81/viridis-research",
+   "source_run": "2026-10-31_P2",
+   "theorems": 6,
+   "title": "Re-certifying the Viridis OS Decision Kernels: A Lean Proof of the Restoration Critical-Nucleus Core",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "P7_PlasmaNFix/Energy.lean",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [
+    "EcoLib.Restoration.PlasmaNFixFoundations"
+   ],
+   "domain": "Restoration",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "P7_PlasmaNFix/Energy.lean",
+     "sha256": "181588cdac36ac27c65670e2c2f428dc1b521551bcc206f11f21444841f04f3c"
+    }
+   ],
+   "fingerprint": "64e1b726b7aef89c4f5f9c6142eae73b9872f0c68b84ae77478625048d5f7276",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Restoration.PlasmaNFixEnergy",
+   "public_since": "",
+   "rid": "canon:P7_PlasmaNFix/Energy.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "5fc5fee9ab182bab175614d958a5152de23098be42a27f422bd7d95dad7ab9ff",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 14,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "os/functions/plasma-nfix-information-rate/function.json",
+    "provider": "CANON_CI_SPINE_BUILD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Restoration",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "P7_PlasmaNFix/Foundations.lean",
+     "sha256": "d00ed89438dd55a25fc59fbd03a96c69ef91300db910a3da5547be9a15d9f82c"
+    }
+   ],
+   "fingerprint": "72371e16c677477fbba17e350799b1783e4ff39381a166db5a6f823f61f9244c",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Restoration.PlasmaNFixFoundations",
+   "public_since": "",
+   "rid": "canon:P7_PlasmaNFix/Foundations.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "f27e8d6aee974c663325b96403dd8d4ad021ffb4f1a1d86c6b6a6c8b3b6f80c6",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 8,
+   "title": "Plasma N-fixation \u2014 information-rate bound structure",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "os/functions/plasma-nfix-information-rate/function.json",
+    "provider": "CANON_CI_SPINE_BUILD",
+    "public_receipt": false
+   },
+   "deps": [
+    "EcoLib.Restoration.PlasmaNFixFoundations",
+    "EcoLib.Restoration.PlasmaNFixEnergy"
+   ],
+   "domain": "Restoration",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "P7_PlasmaNFix/Integration.lean",
+     "sha256": "972174f14ca366d7677423161c625710e015d17404ebce26c5dee7dc18183122"
+    }
+   ],
+   "fingerprint": "4edc239af5605997a0573611778c8196b23a7d54480f3cde9fd0a7487d9bf21d",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Restoration.PlasmaNFixIntegration",
+   "public_since": "",
+   "rid": "canon:P7_PlasmaNFix/Integration.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "dc013d896c62be0c84557c2b4d459c72fdb0093b95223977194992d0e6266505",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 19,
+   "title": "Plasma N-fixation \u2014 information-rate bound structure",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "certificate_status": "LEAN_ZERO_SORRY_CERTIFIED",
+    "depth": "substantial",
+    "evidence": "certificates/Run-130/",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": true
+   },
+   "deps": [],
+   "domain": "Restoration",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "certificates/Run-130/VERIFICATION_CANDIDATE.lean",
+     "sha256": "1260b3565b55ec536a94c59b13ac55cfadaa6e17f6b01b965e5d1014e609bd36"
+    }
+   ],
+   "fingerprint": "9396b93884667c92736b0b5479a0e85edbec04979a65f681808284b53303b83e",
+   "intelligence_bound_conjecture": false,
+   "kind": "certificate",
+   "module": "EcoLib.Restoration.SeedSourceBottleneckCertificate",
+   "public_since": "2026-08-30",
+   "rid": "canon:certificates/Run-130",
+   "schema": "ecolib-module/1",
+   "sha256": "3f663118bc377f87d517e098e3c82a1050b7266c24f65cefafe9f4384dc1335f",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-130",
+   "theorems": 65,
+   "title": "Seed-source bottleneck certificate",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/SFB/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Restoration",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/SFB/VERIFICATION_CANDIDATE.lean",
+     "sha256": "eb55692ff2b129da6091d268faf522bdb1a2a72eea1223834b1ea804d7d6f062"
+    }
+   ],
+   "fingerprint": "8a92aeb35b37bee33b063cf4bd10a6f638480eeb24215ac3ae7067fe40f37223",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.Restoration.SharedFacilitation",
+   "public_since": "2026-09-01",
+   "rid": "canon:series/SFB",
+   "schema": "ecolib-module/1",
+   "sha256": "f0c164dda51af72bf4e9e03365620e0be679b788334ac917440d63806447eb39",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-149",
+   "theorems": 6,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/SOR/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Restoration",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/SOR/ViridisRun140.lean",
+     "sha256": "400126167b2f6fb02886765fd7317e4ef2bf7ba3df5cc3bc66d57360076a30ff"
+    }
+   ],
+   "fingerprint": "05dff7359007c2f67d84f44bc3cc950dd040ff0c4d583cb13552793bd507a6e9",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.Restoration.StewardshipOptionReserve",
+   "public_since": "2026-09-01",
+   "rid": "canon:series/SOR",
+   "schema": "ecolib-module/1",
+   "sha256": "7daf9dfa9a8cb176f2e7ce28b5fcefd2613ff33588f959e60124c3928b383484",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-140",
+   "theorems": 6,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/UniversalNucleationMetaTheorem.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Restoration",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/UniversalNucleationMetaTheorem.lean",
+     "sha256": "8114636ece4e8f6a0df53b696efd5d8a203229227ca48fb6e6f6dd848e56f205"
+    }
+   ],
+   "fingerprint": "adb20f27a16ff8595e13cf613d3557e6c5e2c52d2b383fc4e0c03f1efbcbede4",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Restoration.UniversalNucleationMetaTheorem",
+   "public_since": "",
+   "rid": "canon:series/UniversalNucleationMetaTheorem.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "3beb4d4365594ed7e9dba63a3734cca0cba4d81a5ae7a1513e68113b5f6d6d06",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 8,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/UDWL/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Restoration",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/UDWL/ViridisRun163.lean",
+     "sha256": "36531a31de52283ab665e04675b424e63c2ff4968c81d0ccf51a2d4dd158b10a"
+    }
+   ],
+   "fingerprint": "7bcba27f0ac4a65055dc3d8758ec3a18d4a65e10c42cdd1c3ed9317c7da0d5aa",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.Restoration.UsefulDissipatedWork",
+   "public_since": "2026-09-13",
+   "rid": "canon:series/UDWL",
+   "schema": "ecolib-module/1",
+   "sha256": "765b2ef27c543c70e330f76d3b339df9efb1f7b8e03e03da19cf80e8bb480f00",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-163",
+   "theorems": 9,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "BoundedMemoryDissipation.lean",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Thermodynamics",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "BoundedMemoryDissipation.lean",
+     "sha256": "275b97ac26719847fc0e160f89d7258823d6872a3bc392e43dd1d44686f8cbbd"
+    }
+   ],
+   "fingerprint": "0b9b36ce1f436872786af0e7f475b7a7520e218c4cfa9ed46465221ac2995c17",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Thermodynamics.BoundedMemoryDissipation",
+   "public_since": "",
+   "rid": "canon:BoundedMemoryDissipation.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "77fb632a37164ce2ea2ebd7dbccbf67b14346e26ee315fda3ab7f1d85ca1e9a0",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 5,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/DeadlineCarnot.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Thermodynamics",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/DeadlineCarnot.lean",
+     "sha256": "48ce5029b694368e1cac0a91264b560d29a424e43e6b5f4d838d79fd1fece92e"
+    }
+   ],
+   "fingerprint": "a94cc5c76c005d5fafef1b432ed5365fd8969de5b49d1b25fe952ed3218632c4",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Thermodynamics.DeadlineCarnot",
+   "public_since": "",
+   "rid": "canon:series/DeadlineCarnot.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "4517812beead602a392fea1315305f6953f8c4bb3c0cb283c379df6eb9860690",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 17,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "os/functions/geodesic-saturation-forcing-decomposition/function.json",
+    "provider": "CANON_CI_SPINE_BUILD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Thermodynamics",
+   "empirical_validation": "NOT_VALIDATED",
+   "files": [
+    {
+     "file": "GeodesicSaturation.lean",
+     "sha256": "192af4cc32ba24fdef4593c74a819a142fd50f9ed84aeae04fd0603ad5f45d73"
+    }
+   ],
+   "fingerprint": "6c3753d14bf2477f8db4ed40b8417fc06d3eada523fadd11879c1f3143000a24",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Thermodynamics.GeodesicSaturation",
+   "public_since": "",
+   "rid": "canon:GeodesicSaturation.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "e8132813d7bd16c239bfa3d2f271a48f002e023f5c1c6d725fc0663a83041670",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 6,
+   "title": "Geodesic saturation \u2014 forcing excess splits into speed and path excess",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "Book_HeatAndDisorder.lean",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Thermodynamics",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "Book_HeatAndDisorder.lean",
+     "sha256": "9a686285d39ce25cd7147337be3a2066320333ff0c7f1562ff20df5dd8953fbf"
+    }
+   ],
+   "fingerprint": "a7c6186fcece51bfd6f6c2b950781304c76ca821cc6963b3768161f675ce1ab8",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Thermodynamics.HeatAndDisorder",
+   "public_since": "",
+   "rid": "canon:Book_HeatAndDisorder.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "dcf4d574ced28a307c936188f9721730c6b3a80485c6896ce766ae845857dd7b",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 12,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/IntelligenceExergy.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Thermodynamics",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/IntelligenceExergy.lean",
+     "sha256": "08c2754ccf22c43ff4ad9ba77e9035c7115f69b885461ead871c12d81640e751"
+    }
+   ],
+   "fingerprint": "bd2327a90f1732c7e2897edf2626b2cec533a52501f58a6e05187f3580ea9840",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Thermodynamics.IntelligenceExergy",
+   "public_since": "",
+   "rid": "canon:series/IntelligenceExergy.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "49571f375a4123a94d97806bc71f17154ceb7a93967d6f5801e6c3f96687da7d",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 6,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/KibbleZurekSpeedLimit.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Thermodynamics",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/KibbleZurekSpeedLimit.lean",
+     "sha256": "e82c8a0ea7d53d10da44e3e3e44d18d024fdc6dfea865b159941c819b67ce69a"
+    }
+   ],
+   "fingerprint": "f35625bbeee97bf717eb28f5df991d9a3868d2bd8a3dc5b8aeda65064021cdf8",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Thermodynamics.KibbleZurekSpeedLimit",
+   "public_since": "",
+   "rid": "canon:series/KibbleZurekSpeedLimit.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "9d1338e87048fe84d56036514651328226777536f0f75e3d0a23bced6a090156",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 8,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/MRRN/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Thermodynamics",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/MRRN/ViridisRun156.lean",
+     "sha256": "4291d5d3bf03f0d0d4c7b74b55a0de0b602a87a90f598e197e9333eab8f10521"
+    }
+   ],
+   "fingerprint": "be78478fea95e19b22d501cf726163da20b030d4b9c346cb13ac26a684cb040f",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.Thermodynamics.MonitoringResponseReserve",
+   "public_since": "2026-09-13",
+   "rid": "canon:series/MRRN",
+   "schema": "ecolib-module/1",
+   "sha256": "245a721b87fe8122215301375431d58d1bf1244fb604e2960223a97ec71fd1b7",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-156",
+   "theorems": 9,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "PSIT_Symplectic.lean",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Thermodynamics",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "PSIT_Symplectic.lean",
+     "sha256": "a99330eea8694d113e802af73bbfcec1eaac6eae97a6d7381b8b15d4bf49ca8c"
+    }
+   ],
+   "fingerprint": "6d8530cfdcc21c14b8baea4a1fd95245ff27a9966ef5170b4eda28c3018bfde8",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Thermodynamics.PSITSymplectic",
+   "public_since": "",
+   "rid": "canon:PSIT_Symplectic.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "e2f65849206f5c0c9d9d39052f312e92a120dabfac090ab921e556e95c1c2008",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 8,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/RASL/COMPARATOR_SUMMARY.md",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Thermodynamics",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/RASL/ViridisRun171.lean",
+     "sha256": "2c49eaff46ed034080e2bd59c334c93437bd0413c973dc63d686b0fd9512ebfa"
+    }
+   ],
+   "fingerprint": "170ba07e7cee7c0fb5dabfe1bfc0d3c19fbf6390d76d58fafa0ad8b25404e9a8",
+   "intelligence_bound_conjecture": false,
+   "kind": "series",
+   "module": "EcoLib.Thermodynamics.ReservedActivity",
+   "public_since": "2026-09-19",
+   "rid": "canon:series/RASL",
+   "schema": "ecolib-module/1",
+   "sha256": "8f7f55b0af38f6bfd55c99ab0170d5a141e4eb37ac0dbc7adbd6743522e51db8",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-171",
+   "theorems": 4,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "releases/2026-08-08/The_Scheduler_Free-Energy_Certificate/lean/SchedulerFreeEnergy.lean",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Thermodynamics",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "releases/2026-08-08/The_Scheduler_Free-Energy_Certificate/lean/SchedulerFreeEnergy.lean",
+     "sha256": "70c1dbfb1f86f3247e5084165e27dd9ec03ec8646c7bd45f7112a4dd7f98df4d"
+    }
+   ],
+   "fingerprint": "979591097831ec4b22708d81520ebf823c476592d0c6701e8580a810c08f75bf",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Thermodynamics.SchedulerFreeEnergy",
+   "public_since": "",
+   "rid": "canon:releases/2026-08-08/The_Scheduler_Free-Energy_Certificate/lean/SchedulerFreeEnergy.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "47e5368c8416cf9310e4435c7c9b41c5336226bde2bc93627b4917a104d882fa",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 6,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/SESL/SymbioticEqualization.lean",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Thermodynamics",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/SESL/SymbioticEqualization.lean",
+     "sha256": "e834af7336b4ef1d79af4609f354a9b408b0b4a8d385d79aa90e8d98ea07584d"
+    }
+   ],
+   "fingerprint": "d67c76d425552e874efc29fc31a1f5290175fd9c74e6383232ddf0e5ba212f05",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Thermodynamics.SymbioticEqualization",
+   "public_since": "",
+   "rid": "canon:series/SESL/SymbioticEqualization.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "f8e4f966d287f788ba1cb7bc1d8643ec00cfaed42b9099ea0903177392118ad3",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 7,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/WuWeiCrypticity.lean",
+    "provider": "CANON_PUBLISHED_LEAN",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Thermodynamics",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/WuWeiCrypticity.lean",
+     "sha256": "7bfe66c0b8d35e28636f206909221a7d4147ab53cccb350455b1744a87666fd1"
+    }
+   ],
+   "fingerprint": "ad90143d1eb420f30379d1d203210b3503e9f58301df2f5c8689432d45ef6363",
+   "intelligence_bound_conjecture": true,
+   "kind": "module",
+   "module": "EcoLib.Thermodynamics.WuWeiCrypticity",
+   "public_since": "",
+   "rid": "canon:series/WuWeiCrypticity.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "a8c0f86e38389356ea0387e099af9a0571828eca4fb0bc57ba991ee3698b97de",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 8,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/WuWeiDominance.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Thermodynamics",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/WuWeiDominance.lean",
+     "sha256": "18adb3b6b2e3bef60087e30d7ad6bab38da1d9051d3cc47c31736bb6db0c2fe8"
+    }
+   ],
+   "fingerprint": "79e209fd933bbc6b7e0bc63ba61f00f19337b44e46438d35faa6d45078e9ec74",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Thermodynamics.WuWeiDominance",
+   "public_since": "",
+   "rid": "canon:series/WuWeiDominance.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "31f4963f7ad2e191e4d67d58ae5d43a76494e489b2daa3c6c8682b4b33883375",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 13,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
+   "added_in": "0.1.0",
+   "certification": {
+    "evidence": "series/WuWeiInference.lean",
+    "provider": "ARISTOTLE_HISTORICAL",
+    "public_receipt": false
+   },
+   "deps": [],
+   "domain": "Thermodynamics",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "series/WuWeiInference.lean",
+     "sha256": "411f31c9e9d48fa3091d0faad3140b313613a1a3338f9435e9d4dc034d30a1f8"
+    }
+   ],
+   "fingerprint": "63eedb3ada716864fc272671dbf0268b5211f42638f1c23cf2afc51f8a4de142",
+   "intelligence_bound_conjecture": false,
+   "kind": "module",
+   "module": "EcoLib.Thermodynamics.WuWeiInference",
+   "public_since": "",
+   "rid": "canon:series/WuWeiInference.lean",
+   "schema": "ecolib-module/1",
+   "sha256": "bbefd274c2ecc85b778f4248e54d12f75c37c08924f020b39e41c5172fcab4f3",
+   "source_commit": "d43fad229ded001d030545842da35b87684e2f86",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "",
+   "theorems": 14,
+   "title": "",
+   "wrapped_in": ""
+  }
+ ],
+ "schema": "ecolib-module/1",
+ "updated": "2026-11-08",
+ "version": "0.1.0"
+}

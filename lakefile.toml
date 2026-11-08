@@ -1,0 +1,15 @@
+name = "ecolib"
+version = "0.1.0"
+defaultTargets = ["EcoLib"]
+license = "Apache-2.0"
+description = "Machine-checked results from Viridis conservation science: corridors, restoration, D-Score, thermodynamic economics and more, on Mathlib."
+keywords = ["conservation", "ecology", "thermodynamics", "economics", "formal-verification"]
+homepage = "https://github.com/jdhart81/ecolib"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "8f9d9cff6bd728b17a24e163c9402775d9e6a365"
+
+[[lean_lib]]
+name = "EcoLib"
