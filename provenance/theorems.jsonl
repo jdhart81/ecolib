@@ -1179,6 +1179,148 @@
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1BitQuad", "name": "ViridisStatements.P1.BitQuad.Proof.mem_vEdges", "schema": "ecolib-theorem/1", "stated": true}
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1BitQuad", "name": "ViridisStatements.P1.BitQuad.Proof.mem_vertices", "schema": "ecolib-theorem/1", "stated": true}
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1BitQuad", "name": "ViridisStatements.P1.BitQuad.Proof.sum_shift", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.C8.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Controls.C8_block", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Controls.C8_diamond", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Controls.C8_empty_eq", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Controls.C8_eq_one", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Controls.C8_ring", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Controls.barrier_adj", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Controls.enclosed_block", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Controls.enclosed_diamond", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Controls.enclosed_empty", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Controls.enclosed_eq_one", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Controls.enclosed_eq_zero", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Controls.enclosed_ring", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Controls.infinite_of_ray", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Controls.isolated", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Controls.ray_left", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Controls.ray_right", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.G4.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.G8.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.C8_insert", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.FR_refl", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.FR_step", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.FR_trans", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": [], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.Near.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.P_scan", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.barrier_adj_iff", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.bridge_eq", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.bridge_of_halfplane_jordan", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.card_components", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.card_insert_biUnion", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.card_sdiff_eq_sum", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.col_reach", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.compl_adj_iff", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.compl_subset", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.cp.congr_simp", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.cp.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.cp_not_enclosed", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.crack_escape", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.crack_step", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.cracks.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.creach", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.cross_below", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.cross_horiz", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.cross_vert", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.cycle_parity", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.dirs.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.dsum.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.dsum_add", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.dsum_parity", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.enclosed_ge", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.enclosed_in_box", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.enclosed_insert", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.enclosed_map_iff", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.euler_empty", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.euler_insert", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.euler_insert_local", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.euler_scan", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.exists_bound", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.finite_G4_nbrs", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.finite_enclosed", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.finite_touch", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.free_adj", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.free_ne", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.g4_adj_iff", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.g8_adj_iff", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.g8_coords", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.insertion", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.insertion_hole", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.invariant.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.invariant_empty", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.invariant_insert", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.invariant_insert_scan", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.invariant_nonneg", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.invariant_zero_of_scan", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.iter_mem", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.jincl_inj", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.join_of_senc", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.k_core", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.k_eq_one", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.k_eq_zero", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.main", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.map_eq_cp_iff", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.map_eq_p_iff", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.map_inj_of_not_touch", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.map_inj_of_not_touch'", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.map_surj", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.map_surj'", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.mc", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.mem_compl_insert", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.mem_cracks", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.mem_hEdges", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.mem_vEdges", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.mem_vertices", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.next.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.next_mem", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.not_SEnc_left", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.not_SEnc_of_S", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.not_SEnc_right", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.not_enclosed_above", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.not_mem_above", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.orbit", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": [], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.out.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.prev.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.prev_next", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.pv.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.qv.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.reach", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.reach_left", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.row_le", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.row_reach", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.scan_step_eq_or_core", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.scan_step_mono", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.sdiff_local", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.senc_of_join", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.statement_of_core", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.statement_of_enc_join", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.statement_of_halfplane_jordan", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.statement_of_jordan", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.statement_of_le", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.statement_of_scan", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.subset_insert'", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.touchC_mk", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.touchPC_mk", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.touch_enclosed_eq_S", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.touch_eq_N", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.touch_nbrs", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.unique_unbounded", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.walk_lemma", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.walk_lemma'", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.win.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.Proof.win_not_mem", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.barrierGraph.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.block.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.complementGraph.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.corners.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.diamond.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.enclosed.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.euler.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.hEdges.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.ring.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.vEdges.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.vertices.eq_1", "schema": "ecolib-theorem/1", "stated": false}
 {"axioms": [], "module": "EcoLib.Foundations.TCT", "name": "IsMinFilter.eq_1", "schema": "ecolib-theorem/1", "stated": false}
 {"axioms": [], "module": "EcoLib.Foundations.TCT", "name": "IsMinOn.eq_1", "schema": "ecolib-theorem/1", "stated": false}
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.TCT", "name": "TCT.LambertOptimum", "schema": "ecolib-theorem/1", "stated": true}

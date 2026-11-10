@@ -63,6 +63,7 @@ import EcoLib.Foundations.KZSLTReprove
 import EcoLib.Foundations.MIST
 import EcoLib.Foundations.MissionFeasibility
 import EcoLib.Foundations.P1BitQuad
+import EcoLib.Foundations.P1Bridge
 import EcoLib.Foundations.TCT
 import EcoLib.IntelligenceBound.Core
 import EcoLib.IntelligenceBound.DutyCycleLedger

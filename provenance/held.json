@@ -9,27 +9,27 @@
    "rid": "canon:series/ACC"
   },
   {
-   "reason": "identical to canon:certificates/Run-120",
+   "reason": "same development as canon:certificates/Run-120",
    "rid": "canon:series/CAST"
   },
   {
-   "reason": "identical to canon:certificates/Run-133",
+   "reason": "same development as canon:certificates/Run-133",
    "rid": "canon:series/CODC"
   },
   {
-   "reason": "identical to canon:certificates/Run-131",
+   "reason": "same development as canon:certificates/Run-131",
    "rid": "canon:series/CSHC/CognitiveSwitchingHysteresis.lean"
   },
   {
-   "reason": "identical to canon:certificates/Run-132",
+   "reason": "same development as canon:certificates/Run-132",
    "rid": "canon:series/DSWC"
   },
   {
-   "reason": "identical to canon:certificates/Run-138",
+   "reason": "same development as canon:certificates/Run-138",
    "rid": "canon:series/GACC"
   },
   {
-   "reason": "identical to canon:certificates/Run-123",
+   "reason": "same development as canon:certificates/Run-123",
    "rid": "canon:series/HCF"
   },
   {
@@ -37,7 +37,7 @@
    "rid": "canon:series/ICC"
   },
   {
-   "reason": "identical to canon:certificates/Run-121",
+   "reason": "same development as canon:certificates/Run-121",
    "rid": "canon:series/ISB"
   },
   {
@@ -45,23 +45,23 @@
    "rid": "canon:series/PCR"
   },
   {
-   "reason": "identical to canon:certificates/Run-124",
+   "reason": "same development as canon:certificates/Run-124",
    "rid": "canon:series/PCS"
   },
   {
-   "reason": "identical to canon:certificates/Run-128",
+   "reason": "same development as canon:certificates/Run-128",
    "rid": "canon:series/RC/PaperFormalization.lean"
   },
   {
-   "reason": "identical to canon:series/DissipativeGeneralization.lean",
+   "reason": "same development as canon:series/DissipativeGeneralization.lean",
    "rid": "canon:series/S6_CognitionLearning/DissipativeGeneralization.lean"
   },
   {
-   "reason": "identical to canon:series/MELT.lean",
+   "reason": "same development as canon:series/MELT.lean",
    "rid": "canon:series/S6_CognitionLearning/MELT.lean"
   },
   {
-   "reason": "identical to canon:certificates/Run-137",
+   "reason": "same development as canon:certificates/Run-137",
    "rid": "canon:series/SAC"
   },
   {
@@ -73,20 +73,24 @@
    "rid": "canon:series/SSBC"
   },
   {
-   "reason": "identical to canon:certificates/Run-135",
+   "reason": "same development as canon:certificates/Run-135",
    "rid": "canon:series/SSC"
   },
   {
-   "reason": "identical to canon:certificates/Run-139",
+   "reason": "same development as canon:certificates/Run-139",
    "rid": "canon:series/TRWFN"
   },
   {
-   "reason": "identical to canon:certificates/Run-122",
+   "reason": "same development as canon:certificates/Run-122",
    "rid": "canon:series/ZAB"
   },
   {
    "reason": "same development as canon:P0_IntelligenceBound/Current.lean",
    "rid": "ib:IntelligenceBound/Basic.lean"
+  },
+  {
+   "reason": "same development as record:P1.Bridge",
+   "rid": "record:P1.Insertion"
   }
  ],
  "held": [
@@ -148,5 +152,5 @@
   }
  ],
  "schema": "ecolib-held/1",
- "updated": "2026-11-08"
+ "updated": "2026-11-10"
 }

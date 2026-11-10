@@ -12,6 +12,7 @@ MIT License (Copyright (c) Justin D. Hart), whose notice is reproduced below:
 
   EcoLib.Economics.P2Harmonization
   EcoLib.Foundations.P1BitQuad
+  EcoLib.Foundations.P1Bridge
   EcoLib.Restoration.P2Afforestation
   EcoLib.Restoration.P2CarbonContinuity
   EcoLib.Restoration.P2Restoration

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.0 (2026-11-10)
+
+Added 1 module (115 theorems):
+
+- `EcoLib.Foundations.P1Bridge` (2026-11-10_P1)
+
 ## 0.1.0 (2026-11-08)
 
 Added 135 modules (1643 theorems):

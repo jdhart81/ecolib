@@ -2054,6 +2054,42 @@
    "wrapped_in": ""
   },
   {
+   "added_in": "0.2.0",
+   "certification": {
+    "evidence": "runs/2026-11-10_P1/certification.json",
+    "provider": "ENGINE_V3_VERIFY",
+    "public_receipt": true,
+    "statement_id": "P1.Bridge"
+   },
+   "deps": [],
+   "domain": "Foundations",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "lean/ViridisStatements/P1/Bridge.lean",
+     "sha256": "66038622a8193e494604720c398024984bc7346b3101cf7a36e65276cda6171d"
+    },
+    {
+     "file": "runs/2026-11-10_P1/proofs/P1.Bridge.lean",
+     "sha256": "ae3490865be63f9fc80518f96e5e9c0aa618e951d6fd7f3689e963144385a2af"
+    }
+   ],
+   "fingerprint": "3b44b0f6a271740f1d90ba819d569b7947e924594d4ee70063ea42bd35ca8957",
+   "intelligence_bound_conjecture": false,
+   "kind": "record",
+   "module": "EcoLib.Foundations.P1Bridge",
+   "public_since": "2026-11-10",
+   "rid": "record:P1.Bridge",
+   "schema": "ecolib-module/1",
+   "sha256": "771a4476f9e6af4e9194bfb27bd1d56198dddbab845bec44801b559939d763f5",
+   "source_commit": "b29a91528c9a0ff812d88c43e697f9de762710e7",
+   "source_repo": "jdhart81/viridis-research",
+   "source_run": "2026-11-10_P1",
+   "theorems": 115,
+   "title": "A machine-checked raster bridge for Trees Cannot Cut: enclosed 4-components equal C8 minus the Euler characteristic on every finite raster",
+   "wrapped_in": ""
+  },
+  {
    "added_in": "0.1.0",
    "certification": {
     "evidence": "series/TCT.lean",
@@ -4257,6 +4293,6 @@
   }
  ],
  "schema": "ecolib-module/1",
- "updated": "2026-11-08",
- "version": "0.1.0"
+ "updated": "2026-11-10",
+ "version": "0.2.0"
 }
