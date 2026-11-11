@@ -87,10 +87,6 @@
   {
    "reason": "same development as canon:P0_IntelligenceBound/Current.lean",
    "rid": "ib:IntelligenceBound/Basic.lean"
-  },
-  {
-   "reason": "same development as record:P1.Bridge",
-   "rid": "record:P1.Insertion"
   }
  ],
  "held": [
@@ -152,5 +148,5 @@
   }
  ],
  "schema": "ecolib-held/1",
- "updated": "2026-11-10"
+ "updated": "2026-11-11"
 }

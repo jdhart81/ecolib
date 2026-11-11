@@ -10,6 +10,7 @@ jdhart81/intelligence-bound-lean (Apache-2.0) and jdhart81/viridis-research (MIT
 The following modules contain material from jdhart81/viridis-research, used under the
 MIT License (Copyright (c) Justin D. Hart), whose notice is reproduced below:
 
+  EcoLib.Economics.P1Insertion
   EcoLib.Economics.P2Harmonization
   EcoLib.Foundations.P1BitQuad
   EcoLib.Foundations.P1Bridge

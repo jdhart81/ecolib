@@ -1110,6 +1110,42 @@
    "wrapped_in": ""
   },
   {
+   "added_in": "0.3.0",
+   "certification": {
+    "evidence": "runs/2026-11-09_P1/certification.json",
+    "provider": "ENGINE_V3_VERIFY",
+    "public_receipt": true,
+    "statement_id": "P1.Insertion"
+   },
+   "deps": [],
+   "domain": "Economics",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "lean/ViridisStatements/P1/Insertion.lean",
+     "sha256": "800bd9b9fec5033192b40a9d02dae8abf5c15195b3e2b6f2a1c438a7ab08c734"
+    },
+    {
+     "file": "runs/2026-11-09_P1/proofs/P1.Insertion.lean",
+     "sha256": "e31434107d76a387f2bd47d3752511581084d3195b2563373ad279fbc907d670"
+    }
+   ],
+   "fingerprint": "3a17db573f57a6d2964bad58d05430661c50c776a8faa9ae9c7cca738fa7502a",
+   "intelligence_bound_conjecture": false,
+   "kind": "record",
+   "module": "EcoLib.Economics.P1Insertion",
+   "public_since": "2026-11-09",
+   "rid": "record:P1.Insertion",
+   "schema": "ecolib-module/1",
+   "sha256": "49d975cf259d65ab04abcef4eab5c72a0fd2de650789d64efc208853ceaa5096",
+   "source_commit": "98d8a1a1cb938e26b30fb3a4b27bb5161ac2bc96",
+   "source_repo": "jdhart81/viridis-research",
+   "source_run": "2026-11-09_P1",
+   "theorems": 109,
+   "title": "A machine-checked raster bridge for Trees Cannot Cut: single-pixel insertion preserves enc - C8 + chi",
+   "wrapped_in": ""
+  },
+  {
    "added_in": "0.1.0",
    "certification": {
     "evidence": "runs/2026-11-02_P2/certification.json",
@@ -4293,6 +4329,6 @@
   }
  ],
  "schema": "ecolib-module/1",
- "updated": "2026-11-10",
- "version": "0.2.0"
+ "updated": "2026-11-11",
+ "version": "0.3.0"
 }

@@ -1,6 +1,6 @@
 # EcoLib
 
-EcoLib is a Lean 4 library of machine-checked results from Viridis conservation science, built on Mathlib. Version 0.2.0 holds 136 modules and 1758 theorems. A daily job adds newly certified results after checking each one in a network-less sandbox.
+EcoLib is a Lean 4 library of machine-checked results from Viridis conservation science, built on Mathlib. Version 0.3.0 holds 137 modules and 1867 theorems. A daily job adds newly certified results after checking each one in a network-less sandbox.
 
 The [Eco-Lean Bench](https://huggingface.co/datasets/viridis-research/eco-lean-bench) is the companion AI benchmark (the same kind of results with the proofs removed). EcoLib is the library you import: the proofs themselves.
 
@@ -12,7 +12,7 @@ In your `lakefile.toml`:
 [[require]]
 name = "ecolib"
 git = "https://github.com/jdhart81/ecolib"
-rev = "v0.2.0"
+rev = "v0.3.0"
 ```
 
 Then `import EcoLib` for everything, or one module, for example `import EcoLib.Alignment.CertificationComplexity`. EcoLib pins Lean `v4.28.0` and Mathlib `8f9d9cff6bd7`; run `lake exe cache get` before building.
@@ -47,7 +47,7 @@ The Intelligence Bound (dI/dt <= P*D/(k_B T ln 2)) is a conjecture. Theorems her
 | D-Score parcel scoring and ranking (`EcoLib.DScore`) | 5 | 41 |
 | Habitat corridors and HDFM forest management (`EcoLib.Corridors`) | 12 | 145 |
 | Restoration, afforestation and ecological succession (`EcoLib.Restoration`) | 19 | 252 |
-| Thermodynamic economics, prices and allocation (`EcoLib.Economics`) | 11 | 79 |
+| Thermodynamic economics, prices and allocation (`EcoLib.Economics`) | 12 | 188 |
 | Monitoring, detection and early warning (`EcoLib.Monitoring`) | 6 | 119 |
 | Learning, cognition and attention (`EcoLib.Learning`) | 16 | 165 |
 | Alignment, verification and safety of decision systems (`EcoLib.Alignment`) | 15 | 437 |
@@ -122,6 +122,7 @@ The Intelligence Bound (dI/dt <= P*D/(k_B T ln 2)) is a conjecture. Theorems her
 - `EcoLib.Economics.CapacityHarmonization` (conjecture-conditional). 6 theorems; source jdhart81/viridis-canon series/CapacityHarmonization.lean.
 - `EcoLib.Economics.DualPriceAlignment`. 6 theorems; source jdhart81/viridis-canon Run-150.
 - `EcoLib.Economics.HarmonicValuation`. 3 theorems; source jdhart81/viridis-canon series/HarmonicValuation.lean.
+- `EcoLib.Economics.P1Insertion`: A machine-checked raster bridge for Trees Cannot Cut: single-pixel insertion preserves enc - C8 + chi. 109 theorems; source jdhart81/viridis-research 2026-11-09_P1.
 - `EcoLib.Economics.P2Harmonization`: Re-certifying the Viridis OS Decision Kernels: A Lean Proof of the Harmonization Scalar-Price Welfare Core. 7 theorems; source jdhart81/viridis-research 2026-11-02_P2.
 - `EcoLib.Economics.RetrofitWaterFilling`: Ecological-thermodynamic capital allocation. 6 theorems; source jdhart81/viridis-canon Run-139.
 - `EcoLib.Economics.StewardshipReserve`. 4 theorems; source jdhart81/viridis-canon Run-172.
@@ -247,4 +248,4 @@ Proofs were produced with AI assistance (Aristotle by Harmonic, OpenAI Codex, An
 
 Apache-2.0 (see `LICENSE` and `NOTICE`). Cite with `CITATION.cff`.
 
-_Updated 2026-11-10 by the viridis-engine `ecolib` workflow._
+_Updated 2026-11-11 by the viridis-engine `ecolib` workflow._

@@ -33,6 +33,7 @@ import EcoLib.DScore.WeightCharter
 import EcoLib.Economics.CapacityHarmonization
 import EcoLib.Economics.DualPriceAlignment
 import EcoLib.Economics.HarmonicValuation
+import EcoLib.Economics.P1Insertion
 import EcoLib.Economics.P2Harmonization
 import EcoLib.Economics.RetrofitWaterFilling
 import EcoLib.Economics.StewardshipReserve

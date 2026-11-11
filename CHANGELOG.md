@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.0 (2026-11-11)
+
+Added 1 module (109 theorems):
+
+- `EcoLib.Economics.P1Insertion` (2026-11-09_P1)
+
 ## 0.2.0 (2026-11-10)
 
 Added 1 module (115 theorems):
