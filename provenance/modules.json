@@ -2281,6 +2281,42 @@
    "wrapped_in": ""
   },
   {
+   "added_in": "0.4.0",
+   "certification": {
+    "evidence": "runs/2026-11-14_P5/certification.json",
+    "provider": "ENGINE_V3_VERIFY",
+    "public_receipt": true,
+    "statement_id": "P5.UnrestrictedBoundFalse"
+   },
+   "deps": [],
+   "domain": "IntelligenceBound",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "lean/ViridisStatements/P5/UnrestrictedBoundFalse.lean",
+     "sha256": "3b83eb37905660e3db1cc68c54e476f4ac5c450b245cec4675195f9cc2e0a95d"
+    },
+    {
+     "file": "runs/2026-11-14_P5/proofs/P5.UnrestrictedBoundFalse.lean",
+     "sha256": "3f0110cc26b85d009881440a831c81d1ba092cd48135db5ca43685c1e855ba24"
+    }
+   ],
+   "fingerprint": "61382b4da5afa327d75ce7ef39cac15c1377900bd5c79f24e311864716321b65",
+   "intelligence_bound_conjecture": true,
+   "kind": "record",
+   "module": "EcoLib.IntelligenceBound.P5UnrestrictedBoundFalse",
+   "public_since": "2026-11-14",
+   "rid": "record:P5.UnrestrictedBoundFalse",
+   "schema": "ecolib-module/1",
+   "sha256": "d469cc950ed3a96e6d25ce6b85a1327c3cc2c4b82ae3a757fd64df80ad9674d7",
+   "source_commit": "02f51f51e8b5db200aaf580c001295ccc1529186",
+   "source_repo": "jdhart81/viridis-research",
+   "source_run": "2026-11-14_P5",
+   "theorems": 3,
+   "title": "A Correction Note on an Early Intelligence Bound Source: The Unrestricted Axiom Is False as Written",
+   "wrapped_in": ""
+  },
+  {
    "added_in": "0.1.0",
    "certification": {
     "evidence": "P5_SLSPT/function.json",
@@ -4329,6 +4365,6 @@
   }
  ],
  "schema": "ecolib-module/1",
- "updated": "2026-11-11",
- "version": "0.3.0"
+ "updated": "2026-11-14",
+ "version": "0.4.0"
 }

@@ -1538,6 +1538,10 @@
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.IntelligenceBound.Impossibility", "name": "dCoherent_iter", "schema": "ecolib-theorem/1", "stated": true}
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.IntelligenceBound.Impossibility", "name": "goodhart_inevitable", "schema": "ecolib-theorem/1", "stated": true}
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.IntelligenceBound.Impossibility", "name": "proxy_misalignment_implies_dscore_loss", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.IntelligenceBound.P5UnrestrictedBoundFalse", "name": "ViridisStatements.P5.UnrestrictedBoundFalse.Proof.bound_proves_anything", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.IntelligenceBound.P5UnrestrictedBoundFalse", "name": "ViridisStatements.P5.UnrestrictedBoundFalse.Proof.bound_zero_power", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.IntelligenceBound.P5UnrestrictedBoundFalse", "name": "ViridisStatements.P5.UnrestrictedBoundFalse.Proof.main", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.IntelligenceBound.P5UnrestrictedBoundFalse", "name": "ViridisStatements.P5.UnrestrictedBoundFalse.maxBitRate.eq_1", "schema": "ecolib-theorem/1", "stated": false}
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.IntelligenceBound.SLSPTIntelligenceBound", "name": "cap_eq_zero_iff", "schema": "ecolib-theorem/1", "stated": true}
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.IntelligenceBound.SLSPTIntelligenceBound", "name": "cap_nonneg", "schema": "ecolib-theorem/1", "stated": true}
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.IntelligenceBound.SLSPTIntelligenceBound", "name": "cap_strictAnti_C", "schema": "ecolib-theorem/1", "stated": true}

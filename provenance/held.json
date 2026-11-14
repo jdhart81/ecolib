@@ -5,6 +5,10 @@
    "rid": "canon:P0_IntelligenceBound_COMPILED.lean"
   },
   {
+   "reason": "same development as record:P1.Insertion",
+   "rid": "canon:ViridisStatements/P1/Insertion.lean"
+  },
+  {
    "reason": "copy of canon:certificates/Run-129",
    "rid": "canon:series/ACC"
   },
@@ -99,54 +103,63 @@
    "source_run": ""
   },
   {
-   "errors": [
-    "50:71: Application type mismatch: The argument\n  h\nhas type\n  \u00acp = 1\nbut is expected to have type\n  1 \u2260 p\nin the application\n  Ne.symm h",
-    "64:50: failed to prove positivity/nonnegativity/nonzeroness"
-   ],
-   "fingerprint": "1e055c1eb1044ce964ed2d5ca507b8f9bb920d3ccc843bbf843b973e2bf85740",
-   "reason": "does not compile at the pinned toolchain and Mathlib (2 Lean errors)",
-   "recheck": false,
+   "fingerprint": "02d4a40e5cc11bd634c1561f916a78a87176ccdd2222db21ed888a37a9b1c252",
+   "reason": "depends on canon:ViridisStatements/P1/Insertion.lean, which is held",
+   "recheck": true,
+   "rid": "canon:TreesCannotCut/Insertion.lean",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": ""
+  },
+  {
+   "fingerprint": "b02f153d901b25cefff6a28e272ff5c7932d95267bbcf151c1da597f9d85a03b",
+   "reason": "the deposit holds more than one proof file",
+   "recheck": true,
    "rid": "canon:series/ACCN",
    "source_repo": "jdhart81/viridis-canon",
    "source_run": "Run-145"
   },
   {
-   "fingerprint": "08e62d388e31300944c45bbf7c66ee3dee26d7c1ca0dda3548f5515aac061202",
-   "reason": "no proof file in the deposit (only statements with sorry)",
-   "recheck": true,
+   "errors": [
+    "import not allowed: CorridorAlignment"
+   ],
+   "fingerprint": "e38e09be9414854df5f37dd00cd2868901c81d4d31863a1b58ce6759ca004bb9",
+   "reason": "source denylist: import not allowed: CorridorAlignment",
+   "recheck": false,
    "rid": "canon:series/BCAN",
    "source_repo": "jdhart81/viridis-canon",
    "source_run": "Run-142"
   },
   {
-   "errors": [
-    "27:58: unsolved goals\nwS wP wG s\u2081 p\u2081 g\u2081 s\u2080 p\u2080 g\u2080 : \u211d\n\u22a2 wS * s\u2081 + wP * p\u2081 + (wG * g\u2081 - dscore wS wP wG s\u2080 p\u2080 g\u2080) =\n    wS * s\u2081 - wS * s\u2080 + (wP * p\u2081 - wP * p\u2080) + (wG * g\u2081 - wG * g\u2080)",
-    "72:2: linarith failed to find a contradiction\ncase h1.h\nwS wP wG \u03b5 s p g : \u211d\nhsum : wS + wP + wG = 1\na\u271d : wS * (s + \u03b5) + wP * (p + \u03b5) + wG * (g + \u03b5) - dscore wS wP wG s p g < \u03b5\n\u22a2 False\nfailed"
-   ],
-   "fingerprint": "9629aef51d85ceffa544c14d75dc206b06015eb4d02c23a964744ca9967b55f8",
-   "reason": "does not compile at the pinned toolchain and Mathlib (2 Lean errors)",
-   "recheck": false,
+   "fingerprint": "b02f153d901b25cefff6a28e272ff5c7932d95267bbcf151c1da597f9d85a03b",
+   "reason": "the deposit holds more than one proof file",
+   "recheck": true,
    "rid": "canon:series/DCAE",
    "source_repo": "jdhart81/viridis-canon",
    "source_run": "Run-146"
   },
   {
-   "fingerprint": "08e62d388e31300944c45bbf7c66ee3dee26d7c1ca0dda3548f5515aac061202",
-   "reason": "no proof file in the deposit (only statements with sorry)",
-   "recheck": true,
+   "errors": [
+    "import not allowed: CheckpointBalance"
+   ],
+   "fingerprint": "85ccd725bdad637eeac51be6d43c834aa77b8c7715f547fafbc40e74800e6ef3",
+   "reason": "source denylist: import not allowed: CheckpointBalance",
+   "recheck": false,
    "rid": "canon:series/RCBN",
    "source_repo": "jdhart81/viridis-canon",
    "source_run": "Run-143"
   },
   {
-   "fingerprint": "08e62d388e31300944c45bbf7c66ee3dee26d7c1ca0dda3548f5515aac061202",
-   "reason": "no proof file in the deposit (only statements with sorry)",
-   "recheck": true,
+   "errors": [
+    "import not allowed: StewardshipBottleneckReserve"
+   ],
+   "fingerprint": "0318028074eddd433a625a7e57165e932fd346a0faebdf05b73ac4dbd11294e0",
+   "reason": "source denylist: import not allowed: StewardshipBottleneckReserve",
+   "recheck": false,
    "rid": "canon:series/SBRN",
    "source_repo": "jdhart81/viridis-canon",
    "source_run": "Run-144"
   }
  ],
  "schema": "ecolib-held/1",
- "updated": "2026-11-11"
+ "updated": "2026-11-14"
 }

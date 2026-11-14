@@ -1,6 +1,6 @@
 # EcoLib
 
-EcoLib is a Lean 4 library of machine-checked results from Viridis conservation science, built on Mathlib. Version 0.3.0 holds 137 modules and 1867 theorems. A daily job adds newly certified results after checking each one in a network-less sandbox.
+EcoLib is a Lean 4 library of machine-checked results from Viridis conservation science, built on Mathlib. Version 0.4.0 holds 138 modules and 1870 theorems. A daily job adds newly certified results after checking each one in a network-less sandbox.
 
 The [Eco-Lean Bench](https://huggingface.co/datasets/viridis-research/eco-lean-bench) is the companion AI benchmark (the same kind of results with the proofs removed). EcoLib is the library you import: the proofs themselves.
 
@@ -12,7 +12,7 @@ In your `lakefile.toml`:
 [[require]]
 name = "ecolib"
 git = "https://github.com/jdhart81/ecolib"
-rev = "v0.3.0"
+rev = "v0.4.0"
 ```
 
 Then `import EcoLib` for everything, or one module, for example `import EcoLib.Alignment.CertificationComplexity`. EcoLib pins Lean `v4.28.0` and Mathlib `8f9d9cff6bd7`; run `lake exe cache get` before building.
@@ -43,7 +43,7 @@ The Intelligence Bound (dI/dt <= P*D/(k_B T ln 2)) is a conjecture. Theorems her
 
 | Domain | Modules | Theorems |
 |---|---:|---:|
-| The Intelligence Bound and information-rate limits (conjecture-conditional) (`EcoLib.IntelligenceBound`) | 14 | 108 |
+| The Intelligence Bound and information-rate limits (conjecture-conditional) (`EcoLib.IntelligenceBound`) | 15 | 111 |
 | D-Score parcel scoring and ranking (`EcoLib.DScore`) | 5 | 41 |
 | Habitat corridors and HDFM forest management (`EcoLib.Corridors`) | 12 | 145 |
 | Restoration, afforestation and ecological succession (`EcoLib.Restoration`) | 19 | 252 |
@@ -61,6 +61,7 @@ The Intelligence Bound (dI/dt <= P*D/(k_B T ln 2)) is a conjecture. Theorems her
 - `EcoLib.IntelligenceBound.DutyCycleLedger` (conjecture-conditional). 6 theorems; source jdhart81/viridis-canon Run-147.
 - `EcoLib.IntelligenceBound.FixedOverheadEnergy`. 7 theorems; source jdhart81/viridis-canon Run-178.
 - `EcoLib.IntelligenceBound.Impossibility`: Conservation feasibility — corrigibility rate ceiling, conditional on the Intelligence Bound premises (conjecture-conditional). 8 theorems; source jdhart81/viridis-canon P3_Impossibility.lean.
+- `EcoLib.IntelligenceBound.P5UnrestrictedBoundFalse`: A Correction Note on an Early Intelligence Bound Source: The Unrestricted Axiom Is False as Written (conjecture-conditional). 3 theorems; source jdhart81/viridis-research 2026-11-14_P5.
 - `EcoLib.IntelligenceBound.SLSPTIntelligenceBound`: Inverse-square shadow-price and capacity planner. 5 theorems; source jdhart81/viridis-canon P5_SLSPT/IntelligenceBound.lean.
 - `EcoLib.IntelligenceBound.SLSPTInverseSquare`: Inverse-square shadow-price and capacity planner. 5 theorems; source jdhart81/viridis-canon P5_SLSPT/InverseSquare.lean.
 - `EcoLib.IntelligenceBound.SLSPTShadowPrice`: Inverse-square shadow-price and capacity planner. 4 theorems; source jdhart81/viridis-canon P5_SLSPT/ShadowPrice.lean.
@@ -230,11 +231,12 @@ The Intelligence Bound (dI/dt <= P*D/(k_B T ln 2)) is a conjecture. Theorems her
 Results the job found but did not add, with the reason. They are retried when their source changes.
 
 - canon:P9_AI_Safety.lean: marked Exploratory in the canon (quarantined, not part of the verified spine)
-- canon:series/ACCN (Run-145): does not compile at the pinned toolchain and Mathlib (2 Lean errors)
-- canon:series/BCAN (Run-142): no proof file in the deposit (only statements with sorry)
-- canon:series/DCAE (Run-146): does not compile at the pinned toolchain and Mathlib (2 Lean errors)
-- canon:series/RCBN (Run-143): no proof file in the deposit (only statements with sorry)
-- canon:series/SBRN (Run-144): no proof file in the deposit (only statements with sorry)
+- canon:TreesCannotCut/Insertion.lean: depends on canon:ViridisStatements/P1/Insertion.lean, which is held
+- canon:series/ACCN (Run-145): the deposit holds more than one proof file
+- canon:series/BCAN (Run-142): source denylist: import not allowed: CorridorAlignment
+- canon:series/DCAE (Run-146): the deposit holds more than one proof file
+- canon:series/RCBN (Run-143): source denylist: import not allowed: CheckpointBalance
+- canon:series/SBRN (Run-144): source denylist: import not allowed: StewardshipBottleneckReserve
 
 ## Provenance
 
@@ -248,4 +250,4 @@ Proofs were produced with AI assistance (Aristotle by Harmonic, OpenAI Codex, An
 
 Apache-2.0 (see `LICENSE` and `NOTICE`). Cite with `CITATION.cff`.
 
-_Updated 2026-11-11 by the viridis-engine `ecolib` workflow._
+_Updated 2026-11-14 by the viridis-engine `ecolib` workflow._

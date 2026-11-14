@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.0 (2026-11-14)
+
+Added 1 module (3 theorems):
+
+- `EcoLib.IntelligenceBound.P5UnrestrictedBoundFalse` (2026-11-14_P5)
+
+Held 6: canon:TreesCannotCut/Insertion.lean (depends on canon:ViridisStatements/P1/Insertion.lean, which is held); canon:series/ACCN (the deposit holds more than one proof file); canon:series/BCAN (source denylist: import not allowed: CorridorAlignment); canon:series/DCAE (the deposit holds more than one proof file); canon:series/RCBN (source denylist: import not allowed: CheckpointBalance); canon:series/SBRN (source denylist: import not allowed: StewardshipBottleneckReserve)
+
 ## 0.3.0 (2026-11-11)
 
 Added 1 module (109 theorems):

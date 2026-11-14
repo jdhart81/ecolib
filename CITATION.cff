@@ -6,8 +6,8 @@ authors:
   - family-names: Hart
     given-names: Justin D.
     affiliation: Viridis LLC
-version: "0.3.0"
-date-released: "2026-11-11"
+version: "0.4.0"
+date-released: "2026-11-14"
 license: Apache-2.0
 repository-code: "https://github.com/jdhart81/ecolib"
 keywords: [Lean 4, Mathlib, conservation, ecology, formal verification]

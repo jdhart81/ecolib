@@ -1,5 +1,5 @@
 name = "ecolib"
-version = "0.3.0"
+version = "0.4.0"
 defaultTargets = ["EcoLib"]
 license = "Apache-2.0"
 description = "Machine-checked results from Viridis conservation science: corridors, restoration, D-Score, thermodynamic economics and more, on Mathlib."
