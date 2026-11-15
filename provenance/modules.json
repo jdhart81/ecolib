@@ -449,6 +449,39 @@
    "wrapped_in": ""
   },
   {
+   "added_in": "0.5.0",
+   "certification": {
+    "certificate_status": "LEAN_ZERO_SORRY_CERTIFIED",
+    "depth": "elementary",
+    "evidence": "certificates/Run-145/",
+    "provider": "COMPARATOR_CLOUD",
+    "public_receipt": true
+   },
+   "deps": [],
+   "domain": "Alignment",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "certificates/Run-145/VERIFICATION_CANDIDATE.lean",
+     "sha256": "3a00f9e4472f160542c64d330ddac3fae4ca88b28e5a38fd5f2c8a0a77eb1334"
+    }
+   ],
+   "fingerprint": "a99086011914fd13dfc0341acfa48ad0aa080c5fb1afb269546458bcc2b5d93c",
+   "intelligence_bound_conjecture": false,
+   "kind": "certificate",
+   "module": "EcoLib.Alignment.SymbioticAgreement",
+   "public_since": "2026-08-31",
+   "rid": "canon:certificates/Run-145",
+   "schema": "ecolib-module/1",
+   "sha256": "2d11ad6b4c80bf40d3183cdf645868dd755ae4bb6f916f5e3a85347a192666c6",
+   "source_commit": "bc9bbed7871c95671ee28e742135dc05879c8376",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": "Run-145",
+   "theorems": 7,
+   "title": "",
+   "wrapped_in": ""
+  },
+  {
    "added_in": "0.1.0",
    "certification": {
     "certificate_status": "LEAN_ZERO_SORRY_CERTIFIED",
@@ -4365,6 +4398,6 @@
   }
  ],
  "schema": "ecolib-module/1",
- "updated": "2026-11-14",
- "version": "0.4.0"
+ "updated": "2026-11-15",
+ "version": "0.5.0"
 }

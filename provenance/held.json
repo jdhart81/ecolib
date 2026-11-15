@@ -9,6 +9,54 @@
    "rid": "canon:ViridisStatements/P1/Insertion.lean"
   },
   {
+   "reason": "same development as canon:series/RFC",
+   "rid": "canon:certificates/Run-136"
+  },
+  {
+   "reason": "same development as canon:series/TLRC",
+   "rid": "canon:certificates/Run-151"
+  },
+  {
+   "reason": "same development as canon:series/RRFG",
+   "rid": "canon:certificates/Run-153"
+  },
+  {
+   "reason": "same development as canon:series/SBCN",
+   "rid": "canon:certificates/Run-154"
+  },
+  {
+   "reason": "same development as canon:series/SVON",
+   "rid": "canon:certificates/Run-155"
+  },
+  {
+   "reason": "same development as canon:series/MRRN",
+   "rid": "canon:certificates/Run-156"
+  },
+  {
+   "reason": "same development as canon:series/DREAA",
+   "rid": "canon:certificates/Run-158"
+  },
+  {
+   "reason": "same development as canon:series/DSUR",
+   "rid": "canon:certificates/Run-160"
+  },
+  {
+   "reason": "same development as canon:series/RCBX",
+   "rid": "canon:certificates/Run-161"
+  },
+  {
+   "reason": "same development as canon:series/SARN",
+   "rid": "canon:certificates/Run-162"
+  },
+  {
+   "reason": "same development as canon:series/UDWL",
+   "rid": "canon:certificates/Run-163"
+  },
+  {
+   "reason": "same development as canon:series/SRA",
+   "rid": "canon:certificates/Run-172"
+  },
+  {
    "reason": "copy of canon:certificates/Run-129",
    "rid": "canon:series/ACC"
   },
@@ -139,6 +187,19 @@
   },
   {
    "errors": [
+    "line 316: attribute not allowed: deprecated",
+    "line 317: attribute not allowed: deprecated",
+    "line 318: attribute not allowed: deprecated"
+   ],
+   "fingerprint": "60469c232dc0fded881b8b50d925a08620b18186f9b1ebce3315894eb5848210",
+   "reason": "source denylist: line 316: attribute not allowed: deprecated; line 317: attribute not allowed: deprecated; line 318: attribute not allowed: deprecated",
+   "recheck": false,
+   "rid": "canon:series/NonSubstitutability/Non_Substitutability_Complete.lean",
+   "source_repo": "jdhart81/viridis-canon",
+   "source_run": ""
+  },
+  {
+   "errors": [
     "import not allowed: CheckpointBalance"
    ],
    "fingerprint": "85ccd725bdad637eeac51be6d43c834aa77b8c7715f547fafbc40e74800e6ef3",
@@ -161,5 +222,5 @@
   }
  ],
  "schema": "ecolib-held/1",
- "updated": "2026-11-14"
+ "updated": "2026-11-15"
 }

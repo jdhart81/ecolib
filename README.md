@@ -1,6 +1,6 @@
 # EcoLib
 
-EcoLib is a Lean 4 library of machine-checked results from Viridis conservation science, built on Mathlib. Version 0.4.0 holds 138 modules and 1870 theorems. A daily job adds newly certified results after checking each one in a network-less sandbox.
+EcoLib is a Lean 4 library of machine-checked results from Viridis conservation science, built on Mathlib. Version 0.5.0 holds 139 modules and 1877 theorems. A daily job adds newly certified results after checking each one in a network-less sandbox.
 
 The [Eco-Lean Bench](https://huggingface.co/datasets/viridis-research/eco-lean-bench) is the companion AI benchmark (the same kind of results with the proofs removed). EcoLib is the library you import: the proofs themselves.
 
@@ -12,7 +12,7 @@ In your `lakefile.toml`:
 [[require]]
 name = "ecolib"
 git = "https://github.com/jdhart81/ecolib"
-rev = "v0.4.0"
+rev = "v0.5.0"
 ```
 
 Then `import EcoLib` for everything, or one module, for example `import EcoLib.Alignment.CertificationComplexity`. EcoLib pins Lean `v4.28.0` and Mathlib `8f9d9cff6bd7`; run `lake exe cache get` before building.
@@ -50,7 +50,7 @@ The Intelligence Bound (dI/dt <= P*D/(k_B T ln 2)) is a conjecture. Theorems her
 | Thermodynamic economics, prices and allocation (`EcoLib.Economics`) | 12 | 188 |
 | Monitoring, detection and early warning (`EcoLib.Monitoring`) | 6 | 119 |
 | Learning, cognition and attention (`EcoLib.Learning`) | 16 | 165 |
-| Alignment, verification and safety of decision systems (`EcoLib.Alignment`) | 15 | 437 |
+| Alignment, verification and safety of decision systems (`EcoLib.Alignment`) | 16 | 444 |
 | Ecosystem services, mutualism and Gaian systems (`EcoLib.Ecosystems`) | 18 | 143 |
 | Thermodynamic speed limits and dissipation (`EcoLib.Thermodynamics`) | 14 | 123 |
 | Combinatorial and analytic foundations (`EcoLib.Foundations`) | 6 | 146 |
@@ -177,6 +177,7 @@ The Intelligence Bound (dI/dt <= P*D/(k_B T ln 2)) is a conjecture. Theorems her
 - `EcoLib.Alignment.RobustnessKernelV1`. 27 theorems; source jdhart81/viridis-canon releases/2026-08-08/Robustness_Before_Performance/lean/RobustnessKernelV1.lean.
 - `EcoLib.Alignment.SharedChannelCoverageAudit`: Shared-channel coverage audit. 54 theorems; source jdhart81/viridis-canon Run-125.
 - `EcoLib.Alignment.SufficientSanitization`: The Sufficient Sanitization Certificate: Task Information, Data Minimization, and an Ideal Erasure Gap. 5 theorems; source jdhart81/viridis-canon Run-135.
+- `EcoLib.Alignment.SymbioticAgreement`. 7 theorems; source jdhart81/viridis-canon Run-145.
 - `EcoLib.Alignment.ZenoAlignmentBudget`: The Zeno Alignment Budget: Uniform Projective Steps and a Noise-Limited Measurement Count. 61 theorems; source jdhart81/viridis-canon Run-122.
 
 ### Ecosystem services, mutualism and Gaian systems
@@ -235,6 +236,7 @@ Results the job found but did not add, with the reason. They are retried when th
 - canon:series/ACCN (Run-145): the deposit holds more than one proof file
 - canon:series/BCAN (Run-142): source denylist: import not allowed: CorridorAlignment
 - canon:series/DCAE (Run-146): the deposit holds more than one proof file
+- canon:series/NonSubstitutability/Non_Substitutability_Complete.lean: source denylist: line 316: attribute not allowed: deprecated; line 317: attribute not allowed: deprecated; line 318: attribute not allowed: deprecated
 - canon:series/RCBN (Run-143): source denylist: import not allowed: CheckpointBalance
 - canon:series/SBRN (Run-144): source denylist: import not allowed: StewardshipBottleneckReserve
 
@@ -250,4 +252,4 @@ Proofs were produced with AI assistance (Aristotle by Harmonic, OpenAI Codex, An
 
 Apache-2.0 (see `LICENSE` and `NOTICE`). Cite with `CITATION.cff`.
 
-_Updated 2026-11-14 by the viridis-engine `ecolib` workflow._
+_Updated 2026-11-15 by the viridis-engine `ecolib` workflow._

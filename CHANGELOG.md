@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.5.0 (2026-11-15)
+
+Added 1 module (7 theorems):
+
+- `EcoLib.Alignment.SymbioticAgreement` (Run-145)
+
+Held 1: canon:series/NonSubstitutability/Non_Substitutability_Complete.lean (source denylist: line 316: attribute not allowed: deprecated; line 317: attribute not allowed: deprecated; line 318: attribute not allowed: deprecated)
+
 ## 0.4.0 (2026-11-14)
 
 Added 1 module (3 theorems):
