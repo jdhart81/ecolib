@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.0 (2026-11-15)
+
+Added 1 module (5 theorems):
+
+- `EcoLib.Foundations.P3LoopMassBalance` (2026-11-15_P3)
+
 ## 0.5.0 (2026-11-15)
 
 Added 1 module (7 theorems):

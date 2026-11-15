@@ -2159,6 +2159,42 @@
    "wrapped_in": ""
   },
   {
+   "added_in": "0.6.0",
+   "certification": {
+    "evidence": "runs/2026-11-15_P3/certification.json",
+    "provider": "ENGINE_V3_VERIFY",
+    "public_receipt": true,
+    "statement_id": "P3.LoopMassBalance"
+   },
+   "deps": [],
+   "domain": "Foundations",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "lean/ViridisStatements/P3/LoopMassBalance.lean",
+     "sha256": "f00634594133f7edfb49f21bf30203d259cc8dfa7e62a40326bff1da1ea31ac7"
+    },
+    {
+     "file": "runs/2026-11-15_P3/proofs/P3.LoopMassBalance.lean",
+     "sha256": "0e110da9753e71462f1f2613eef5f7aa9e7fd1c6d8b368034fcc5210283a69b3"
+    }
+   ],
+   "fingerprint": "7f75ed4ebd810250c0041fba2655b1c18441e6f6cc43ad5d3296802e258d0bb6",
+   "intelligence_bound_conjecture": false,
+   "kind": "record",
+   "module": "EcoLib.Foundations.P3LoopMassBalance",
+   "public_since": "2026-11-15",
+   "rid": "record:P3.LoopMassBalance",
+   "schema": "ecolib-module/1",
+   "sha256": "d9bc7e362aeb3b8e9a396fccdf110777e150dbc2cc964ffd08a20675a8ac6a6d",
+   "source_commit": "77f077a14655276eea1faf5ff1090ef64440ac34",
+   "source_repo": "jdhart81/viridis-research",
+   "source_run": "2026-11-15_P3",
+   "theorems": 5,
+   "title": "Loop Mass Balance for a Single-Material Recovery Loop: A Lean Proof",
+   "wrapped_in": ""
+  },
+  {
    "added_in": "0.1.0",
    "certification": {
     "evidence": "series/TCT.lean",
@@ -4399,5 +4435,5 @@
  ],
  "schema": "ecolib-module/1",
  "updated": "2026-11-15",
- "version": "0.5.0"
+ "version": "0.6.0"
 }
