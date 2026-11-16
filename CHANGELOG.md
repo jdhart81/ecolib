@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.7.0 (2026-11-16)
+
+Added 1 module (7 theorems):
+
+- `EcoLib.Foundations.P3CascadedRecovery` (2026-11-16_P3)
+
 ## 0.6.0 (2026-11-15)
 
 Added 1 module (5 theorems):

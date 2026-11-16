@@ -2159,6 +2159,42 @@
    "wrapped_in": ""
   },
   {
+   "added_in": "0.7.0",
+   "certification": {
+    "evidence": "runs/2026-11-16_P3/certification.json",
+    "provider": "ENGINE_V3_VERIFY",
+    "public_receipt": true,
+    "statement_id": "P3.CascadedRecovery"
+   },
+   "deps": [],
+   "domain": "Foundations",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "lean/ViridisStatements/P3/CascadedRecovery.lean",
+     "sha256": "a4e3f3c269b81a1d5dacde1535f0112654d5d4c5203e9a01a444bc4edcfbb115"
+    },
+    {
+     "file": "runs/2026-11-16_P3/proofs/P3.CascadedRecovery.lean",
+     "sha256": "eaafbaaa17a780833c6d955cae570ece4c6676fd241accb2bf52bac6773b8f1c"
+    }
+   ],
+   "fingerprint": "b61e8ea56f08500d51f37e9232920a6996a6e374ef76944dc1db276d989f6039",
+   "intelligence_bound_conjecture": false,
+   "kind": "record",
+   "module": "EcoLib.Foundations.P3CascadedRecovery",
+   "public_since": "2026-11-16",
+   "rid": "record:P3.CascadedRecovery",
+   "schema": "ecolib-module/1",
+   "sha256": "cff4fd2f569f850b8c06a606394a02586b3a81bb1c83887f9289a8deb1116e05",
+   "source_commit": "b44e36a044bb1e9e2bda9eb8d6c62ff7fc9620b4",
+   "source_repo": "jdhart81/viridis-research",
+   "source_run": "2026-11-16_P3",
+   "theorems": 7,
+   "title": "Cascaded Recovery Bounds: A Lean Proof that a Cascade of Imperfect Stages Beats Each of Its Stages",
+   "wrapped_in": ""
+  },
+  {
    "added_in": "0.6.0",
    "certification": {
     "evidence": "runs/2026-11-15_P3/certification.json",
@@ -4434,6 +4470,6 @@
   }
  ],
  "schema": "ecolib-module/1",
- "updated": "2026-11-15",
- "version": "0.6.0"
+ "updated": "2026-11-16",
+ "version": "0.7.0"
 }
