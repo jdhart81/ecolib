@@ -2231,6 +2231,42 @@
    "wrapped_in": ""
   },
   {
+   "added_in": "0.8.0",
+   "certification": {
+    "evidence": "runs/2026-11-17_P3/certification.json",
+    "provider": "ENGINE_V3_VERIFY",
+    "public_receipt": true,
+    "statement_id": "P3.RecoveryWorkFloor"
+   },
+   "deps": [],
+   "domain": "Foundations",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "lean/ViridisStatements/P3/RecoveryWorkFloor.lean",
+     "sha256": "5f5a53efa57459cfd1bd276db7c9ceb96886c8d3f54a66b87b907311f7a7252c"
+    },
+    {
+     "file": "runs/2026-11-17_P3/proofs/P3.RecoveryWorkFloor.lean",
+     "sha256": "cc32f316cea84d47a13a8a80ca3d48534befd045436a9bebb97a74d626ee438d"
+    }
+   ],
+   "fingerprint": "aec179cbbe977134aa4765963d20afd23bfd7a00049e4ed0e85b33cb174fff55",
+   "intelligence_bound_conjecture": true,
+   "kind": "record",
+   "module": "EcoLib.Foundations.P3RecoveryWorkFloor",
+   "public_since": "2026-11-17",
+   "rid": "record:P3.RecoveryWorkFloor",
+   "schema": "ecolib-module/1",
+   "sha256": "efaba41981cfdbb6de23f0277c1f31635489f29c6ddc6869a4c60d679ab63f5a",
+   "source_commit": "739470d095454dca5eb86aba04c77d03e9b00f43",
+   "source_repo": "jdhart81/viridis-research",
+   "source_run": "2026-11-17_P3",
+   "theorems": 6,
+   "title": "A Recovery-Adjusted Work Floor: A Lean Proof that Recovered Supply Lowers, and Exactly Attains, the Fresh-Supply Requirement",
+   "wrapped_in": ""
+  },
+  {
    "added_in": "0.1.0",
    "certification": {
     "evidence": "series/TCT.lean",
@@ -4470,6 +4506,6 @@
   }
  ],
  "schema": "ecolib-module/1",
- "updated": "2026-11-16",
- "version": "0.7.0"
+ "updated": "2026-11-17",
+ "version": "0.8.0"
 }

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.8.0 (2026-11-17)
+
+Added 1 module (6 theorems):
+
+- `EcoLib.Foundations.P3RecoveryWorkFloor` (2026-11-17_P3)
+
 ## 0.7.0 (2026-11-16)
 
 Added 1 module (7 theorems):

@@ -16,6 +16,7 @@ MIT License (Copyright (c) Justin D. Hart), whose notice is reproduced below:
   EcoLib.Foundations.P1Bridge
   EcoLib.Foundations.P3CascadedRecovery
   EcoLib.Foundations.P3LoopMassBalance
+  EcoLib.Foundations.P3RecoveryWorkFloor
   EcoLib.IntelligenceBound.P5UnrestrictedBoundFalse
   EcoLib.Restoration.P2Afforestation
   EcoLib.Restoration.P2CarbonContinuity
