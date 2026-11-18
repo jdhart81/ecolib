@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.9.0 (2026-11-18)
+
+Added 1 module (7 theorems):
+
+- `EcoLib.Foundations.P3CyclicSymbiosis` (2026-11-18_P3)
+
 ## 0.8.0 (2026-11-17)
 
 Added 1 module (6 theorems):

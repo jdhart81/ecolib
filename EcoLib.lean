@@ -67,6 +67,7 @@ import EcoLib.Foundations.MissionFeasibility
 import EcoLib.Foundations.P1BitQuad
 import EcoLib.Foundations.P1Bridge
 import EcoLib.Foundations.P3CascadedRecovery
+import EcoLib.Foundations.P3CyclicSymbiosis
 import EcoLib.Foundations.P3LoopMassBalance
 import EcoLib.Foundations.P3RecoveryWorkFloor
 import EcoLib.Foundations.TCT
