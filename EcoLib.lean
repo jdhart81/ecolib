@@ -75,6 +75,7 @@ import EcoLib.IntelligenceBound.Core
 import EcoLib.IntelligenceBound.DutyCycleLedger
 import EcoLib.IntelligenceBound.FixedOverheadEnergy
 import EcoLib.IntelligenceBound.Impossibility
+import EcoLib.IntelligenceBound.P5CompensationUnderCeiling
 import EcoLib.IntelligenceBound.P5UnrestrictedBoundFalse
 import EcoLib.IntelligenceBound.SLSPTIntelligenceBound
 import EcoLib.IntelligenceBound.SLSPTInverseSquare

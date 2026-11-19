@@ -2458,6 +2458,42 @@
    "wrapped_in": ""
   },
   {
+   "added_in": "0.10.0",
+   "certification": {
+    "evidence": "runs/2026-11-19_P5/certification.json",
+    "provider": "ENGINE_V3_VERIFY",
+    "public_receipt": true,
+    "statement_id": "P5.CompensationUnderCeiling"
+   },
+   "deps": [],
+   "domain": "IntelligenceBound",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "lean/ViridisStatements/P5/CompensationUnderCeiling.lean",
+     "sha256": "ff09ca9eb882869dcbff84346866ae7b501114797ce2a5f97865260552ab763b"
+    },
+    {
+     "file": "runs/2026-11-19_P5/proofs/P5.CompensationUnderCeiling.lean",
+     "sha256": "f45607f8fb00d673f1f735412818e940a4c1b4490aa50b0c54d9c3190055d764"
+    }
+   ],
+   "fingerprint": "0d34f599eeadee51b23f1242a93b5615f8f6a30f90278e2a8e277be4435e64b6",
+   "intelligence_bound_conjecture": true,
+   "kind": "record",
+   "module": "EcoLib.IntelligenceBound.P5CompensationUnderCeiling",
+   "public_since": "2026-11-19",
+   "rid": "record:P5.CompensationUnderCeiling",
+   "schema": "ecolib-module/1",
+   "sha256": "01b3bb0737ca81af4d6b1322910ebb1dd68af8820cf89fd2a2c65779dbcbfedf",
+   "source_commit": "5e698b3b8b4e1191d00f4f1a7df0cb52600b334a",
+   "source_repo": "jdhart81/viridis-research",
+   "source_run": "2026-11-19_P5",
+   "theorems": 5,
+   "title": "A Correction Note on Two Early Intelligence Bound Sources: The Unrestricted Axiom Is False, and \"No Finite Compensation\" Proves Finite Compensation",
+   "wrapped_in": ""
+  },
+  {
    "added_in": "0.4.0",
    "certification": {
     "evidence": "runs/2026-11-14_P5/certification.json",
@@ -4542,6 +4578,6 @@
   }
  ],
  "schema": "ecolib-module/1",
- "updated": "2026-11-18",
- "version": "0.9.0"
+ "updated": "2026-11-19",
+ "version": "0.10.0"
 }

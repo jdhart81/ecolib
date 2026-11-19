@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.10.0 (2026-11-19)
+
+Added 1 module (5 theorems):
+
+- `EcoLib.IntelligenceBound.P5CompensationUnderCeiling` (2026-11-19_P5)
+
 ## 0.9.0 (2026-11-18)
 
 Added 1 module (7 theorems):
