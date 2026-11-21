@@ -1466,6 +1466,18 @@
 {"axioms": ["Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.ring.eq_1", "schema": "ecolib-theorem/1", "stated": false}
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.vEdges.eq_1", "schema": "ecolib-theorem/1", "stated": false}
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P1Bridge", "name": "ViridisStatements.P1.Bridge.vertices.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P2Tempo", "name": "ViridisStatements.P2.Tempo.Proof.core", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P2Tempo", "name": "ViridisStatements.P2.Tempo.Proof.floor_sq", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P2Tempo", "name": "ViridisStatements.P2.Tempo.Proof.gap", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P2Tempo", "name": "ViridisStatements.P2.Tempo.Proof.main", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P2Tempo", "name": "ViridisStatements.P2.Tempo.Proof.norm_eq_cosh", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P2Tempo", "name": "ViridisStatements.P2.Tempo.Proof.optimum_sq", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P2Tempo", "name": "ViridisStatements.P2.Tempo.Sigma.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P2Tempo", "name": "ViridisStatements.P2.Tempo.floor.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P2Tempo", "name": "ViridisStatements.P2.Tempo.normalizedCost.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P2Tempo", "name": "ViridisStatements.P2.Tempo.optimum.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P2Tempo", "name": "ViridisStatements.P2.Tempo.sqrt_four", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P2Tempo", "name": "ViridisStatements.P2.Tempo.tax.eq_1", "schema": "ecolib-theorem/1", "stated": false}
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P3CascadedRecovery", "name": "ViridisStatements.P3.CascadedRecovery.Proof.factor_le_one", "schema": "ecolib-theorem/1", "stated": true}
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P3CascadedRecovery", "name": "ViridisStatements.P3.CascadedRecovery.Proof.factor_nonneg", "schema": "ecolib-theorem/1", "stated": true}
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P3CascadedRecovery", "name": "ViridisStatements.P3.CascadedRecovery.Proof.lower_bound", "schema": "ecolib-theorem/1", "stated": true}

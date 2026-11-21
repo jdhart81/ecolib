@@ -1,6 +1,6 @@
 # EcoLib
 
-EcoLib is a Lean 4 library of machine-checked results from Viridis conservation science, built on Mathlib. Version 0.10.0 holds 144 modules and 1907 theorems. A daily job adds newly certified results after checking each one in a network-less sandbox.
+EcoLib is a Lean 4 library of machine-checked results from Viridis conservation science, built on Mathlib. Version 0.11.0 holds 145 modules and 1914 theorems. A daily job adds newly certified results after checking each one in a network-less sandbox.
 
 The [Eco-Lean Bench](https://huggingface.co/datasets/viridis-research/eco-lean-bench) is the companion AI benchmark (the same kind of results with the proofs removed). EcoLib is the library you import: the proofs themselves.
 
@@ -12,7 +12,7 @@ In your `lakefile.toml`:
 [[require]]
 name = "ecolib"
 git = "https://github.com/jdhart81/ecolib"
-rev = "v0.10.0"
+rev = "v0.11.0"
 ```
 
 Then `import EcoLib` for everything, or one module, for example `import EcoLib.Alignment.CertificationComplexity`. EcoLib pins Lean `v4.28.0` and Mathlib `8f9d9cff6bd7`; run `lake exe cache get` before building.
@@ -53,7 +53,7 @@ The Intelligence Bound (dI/dt <= P*D/(k_B T ln 2)) is a conjecture. Theorems her
 | Alignment, verification and safety of decision systems (`EcoLib.Alignment`) | 16 | 444 |
 | Ecosystem services, mutualism and Gaian systems (`EcoLib.Ecosystems`) | 18 | 143 |
 | Thermodynamic speed limits and dissipation (`EcoLib.Thermodynamics`) | 14 | 123 |
-| Combinatorial and analytic foundations (`EcoLib.Foundations`) | 10 | 171 |
+| Combinatorial and analytic foundations (`EcoLib.Foundations`) | 11 | 178 |
 
 ### The Intelligence Bound and information-rate limits (conjecture-conditional)
 
@@ -226,6 +226,7 @@ The Intelligence Bound (dI/dt <= P*D/(k_B T ln 2)) is a conjecture. Theorems her
 - `EcoLib.Foundations.MissionFeasibility` (conjecture-conditional). 5 theorems; source jdhart81/viridis-canon Bridge_MissionFeasibility.lean.
 - `EcoLib.Foundations.P1BitQuad`: The 8-connected bit-quad Euler formula for finite rasters: a Lean proof by vertex double counting. 7 theorems; source jdhart81/viridis-research 2026-10-28_P1.
 - `EcoLib.Foundations.P1Bridge`: A machine-checked raster bridge for Trees Cannot Cut: enclosed 4-components equal C8 minus the Euler characteristic on every finite raster. 115 theorems; source jdhart81/viridis-research 2026-11-10_P1.
+- `EcoLib.Foundations.P2Tempo`: Re-certifying the Tempo Cadence Kernel of Viridis OS: A Lean Proof of its Six-Part Cost-Model Core. 7 theorems; source jdhart81/viridis-research 2026-11-21_P2.
 - `EcoLib.Foundations.P3CascadedRecovery`: Cascaded Recovery Bounds: A Lean Proof that a Cascade of Imperfect Stages Beats Each of Its Stages. 7 theorems; source jdhart81/viridis-research 2026-11-16_P3.
 - `EcoLib.Foundations.P3CyclicSymbiosis`: Cyclic Industrial Symbiosis: A Lean Proof of the N-Partner Product Condition. 7 theorems; source jdhart81/viridis-research 2026-11-18_P3.
 - `EcoLib.Foundations.P3LoopMassBalance`: Loop Mass Balance for a Single-Material Recovery Loop: A Lean Proof. 5 theorems; source jdhart81/viridis-research 2026-11-15_P3.
@@ -257,4 +258,4 @@ Proofs were produced with AI assistance (Aristotle by Harmonic, OpenAI Codex, An
 
 Apache-2.0 (see `LICENSE` and `NOTICE`). Cite with `CITATION.cff`.
 
-_Updated 2026-11-19 by the viridis-engine `ecolib` workflow._
+_Updated 2026-11-21 by the viridis-engine `ecolib` workflow._

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.11.0 (2026-11-21)
+
+Added 1 module (7 theorems):
+
+- `EcoLib.Foundations.P2Tempo` (2026-11-21_P2)
+
 ## 0.10.0 (2026-11-19)
 
 Added 1 module (5 theorems):
