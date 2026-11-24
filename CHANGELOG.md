@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.12.0 (2026-11-24)
+
+Added 1 module (4 theorems):
+
+- `EcoLib.Corridors.P6MinimalNetwork` (2026-11-24_P6)
+
 ## 0.11.0 (2026-11-21)
 
 Added 1 module (7 theorems):

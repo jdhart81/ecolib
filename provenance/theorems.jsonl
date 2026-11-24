@@ -752,6 +752,12 @@
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Corridors.HDFMPOC", "name": "tree_edge_count", "schema": "ecolib-theorem/1", "stated": true}
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Corridors.HDFMPOC", "name": "tree_edge_removal_partition", "schema": "ecolib-theorem/1", "stated": true}
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Corridors.HDFMPOC", "name": "tree_every_edge_is_bridge", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Corridors.P6MinimalNetwork", "name": "ViridisStatements.P6.MinimalNetwork.Proof.corridorCount_eq", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Corridors.P6MinimalNetwork", "name": "ViridisStatements.P6.MinimalNetwork.Proof.main", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Corridors.P6MinimalNetwork", "name": "ViridisStatements.P6.MinimalNetwork.Proof.patchCount_eq", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Corridors.P6MinimalNetwork", "name": "ViridisStatements.P6.MinimalNetwork.Proof.tree_delete_not_connected", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Corridors.P6MinimalNetwork", "name": "ViridisStatements.P6.MinimalNetwork.corridorCount.eq_1", "schema": "ecolib-theorem/1", "stated": false}
+{"axioms": ["Quot.sound", "propext"], "module": "EcoLib.Corridors.P6MinimalNetwork", "name": "ViridisStatements.P6.MinimalNetwork.patchCount.eq_1", "schema": "ecolib-theorem/1", "stated": false}
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Corridors.PerennialCorridor", "name": "Viridis.Corridors.PerennialCorridor.Phold.eq_1", "schema": "ecolib-theorem/1", "stated": false}
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Corridors.PerennialCorridor", "name": "Viridis.Corridors.PerennialCorridor.W.eq_1", "schema": "ecolib-theorem/1", "stated": false}
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Corridors.PerennialCorridor", "name": "Viridis.Corridors.PerennialCorridor.gardener_ib_floor_mono_in_info", "schema": "ecolib-theorem/1", "stated": true}

@@ -707,6 +707,42 @@
    "wrapped_in": ""
   },
   {
+   "added_in": "0.12.0",
+   "certification": {
+    "evidence": "runs/2026-11-24_P6/certification.json",
+    "provider": "ENGINE_V3_VERIFY",
+    "public_receipt": true,
+    "statement_id": "P6.MinimalNetwork"
+   },
+   "deps": [],
+   "domain": "Corridors",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "lean/ViridisStatements/P6/MinimalNetwork.lean",
+     "sha256": "972f34a0c90aca5f0fe9574e5710692567582c77383ef8cc9ebf3c5fa5d7564b"
+    },
+    {
+     "file": "runs/2026-11-24_P6/proofs/P6.MinimalNetwork.lean",
+     "sha256": "0abae9d216e36ed19f17cff01e65eabaa23aa06ff299b21b171e7b2d5a2ee5e9"
+    }
+   ],
+   "fingerprint": "868bba4816d92f28e21a3a44177e7443ee8483601d7ff1a4dc7138e71e265563",
+   "intelligence_bound_conjecture": false,
+   "kind": "record",
+   "module": "EcoLib.Corridors.P6MinimalNetwork",
+   "public_since": "2026-11-24",
+   "rid": "record:P6.MinimalNetwork",
+   "schema": "ecolib-module/1",
+   "sha256": "7132990102f2b1ab405630a48b6db6c7bec0d958368a0f30802e64366026f9af",
+   "source_commit": "d354de435a80abd9b3aae2143cd889563fb5fcc5",
+   "source_repo": "jdhart81/viridis-research",
+   "source_run": "2026-11-24_P6",
+   "theorems": 4,
+   "title": "Trees are the minimal connected corridor networks, and therefore have no spare corridor: a note for corridor planners with a Lean proof",
+   "wrapped_in": ""
+  },
+  {
    "added_in": "0.1.0",
    "certification": {
     "evidence": "os/functions/perennial-corridor-holding-power/function.json",
@@ -4614,6 +4650,6 @@
   }
  ],
  "schema": "ecolib-module/1",
- "updated": "2026-11-21",
- "version": "0.11.0"
+ "updated": "2026-11-24",
+ "version": "0.12.0"
 }
