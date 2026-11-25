@@ -743,6 +743,42 @@
    "wrapped_in": ""
   },
   {
+   "added_in": "0.13.0",
+   "certification": {
+    "evidence": "runs/2026-11-25_P6/certification.json",
+    "provider": "ENGINE_V3_VERIFY",
+    "public_receipt": true,
+    "statement_id": "P6.SingleFailureRobust"
+   },
+   "deps": [],
+   "domain": "Corridors",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "lean/ViridisStatements/P6/SingleFailureRobust.lean",
+     "sha256": "f7c925574028357c3a83fa7e362b3bc76effd0c355f54bcd57c298bf8bd82c81"
+    },
+    {
+     "file": "runs/2026-11-25_P6/proofs/P6.SingleFailureRobust.lean",
+     "sha256": "4ffe72496f95787324cae2be8112af875fccd9a610f20e56ff88f6fd40c185f3"
+    }
+   ],
+   "fingerprint": "40ae3f415295728a8fe4b50d0dfa634cc795200d413e86170174cc43cb9bf8b7",
+   "intelligence_bound_conjecture": false,
+   "kind": "record",
+   "module": "EcoLib.Corridors.P6SingleFailureRobust",
+   "public_since": "2026-11-25",
+   "rid": "record:P6.SingleFailureRobust",
+   "schema": "ecolib-module/1",
+   "sha256": "e4a678271c6bd03609bed803a6fdc0a143180cc110059b92f0e29ba241ebeee9",
+   "source_commit": "c64a9fe926bf4dad40fe52fa6d95868abc99fd56",
+   "source_repo": "jdhart81/viridis-research",
+   "source_run": "2026-11-25_P6",
+   "theorems": 7,
+   "title": "One spare corridor is the least price of surviving any single corridor loss: a note for corridor planners with a Lean proof",
+   "wrapped_in": ""
+  },
+  {
    "added_in": "0.1.0",
    "certification": {
     "evidence": "os/functions/perennial-corridor-holding-power/function.json",
@@ -4650,6 +4686,6 @@
   }
  ],
  "schema": "ecolib-module/1",
- "updated": "2026-11-24",
- "version": "0.12.0"
+ "updated": "2026-11-25",
+ "version": "0.13.0"
 }

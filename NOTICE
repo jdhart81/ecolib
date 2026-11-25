@@ -11,6 +11,7 @@ The following modules contain material from jdhart81/viridis-research, used unde
 MIT License (Copyright (c) Justin D. Hart), whose notice is reproduced below:
 
   EcoLib.Corridors.P6MinimalNetwork
+  EcoLib.Corridors.P6SingleFailureRobust
   EcoLib.Economics.P1Insertion
   EcoLib.Economics.P2Harmonization
   EcoLib.Foundations.P1BitQuad

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.13.0 (2026-11-25)
+
+Added 1 module (7 theorems):
+
+- `EcoLib.Corridors.P6SingleFailureRobust` (2026-11-25_P6)
+
 ## 0.12.0 (2026-11-24)
 
 Added 1 module (4 theorems):

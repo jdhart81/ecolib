@@ -21,6 +21,7 @@ import EcoLib.Corridors.CorridorStewardship
 import EcoLib.Corridors.DualCorridor
 import EcoLib.Corridors.HDFMPOC
 import EcoLib.Corridors.P6MinimalNetwork
+import EcoLib.Corridors.P6SingleFailureRobust
 import EcoLib.Corridors.PerennialCorridor
 import EcoLib.Corridors.ReciprocalCorridorBottleneck
 import EcoLib.Corridors.SharedCorridorFootprint
