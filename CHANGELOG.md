@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.14.0 (2026-11-26)
+
+Added 1 module (5 theorems):
+
+- `EcoLib.Foundations.P6SerialParallel` (2026-11-26_P6)
+
 ## 0.13.0 (2026-11-25)
 
 Added 1 module (7 theorems):

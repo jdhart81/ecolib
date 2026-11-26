@@ -2411,6 +2411,42 @@
    "wrapped_in": ""
   },
   {
+   "added_in": "0.14.0",
+   "certification": {
+    "evidence": "runs/2026-11-26_P6/certification.json",
+    "provider": "ENGINE_V3_VERIFY",
+    "public_receipt": true,
+    "statement_id": "P6.SerialParallel"
+   },
+   "deps": [],
+   "domain": "Foundations",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "lean/ViridisStatements/P6/SerialParallel.lean",
+     "sha256": "a882c97873aba9a8589b820eb1d894b9ba79489c067a1a05bce8c070b76889e3"
+    },
+    {
+     "file": "runs/2026-11-26_P6/proofs/P6.SerialParallel.lean",
+     "sha256": "c128f57f223e46b90007f8511f12a767b18d2e180006f77c691c884b7bf07504"
+    }
+   ],
+   "fingerprint": "6c062231ce800f3a8aa21733238bfba7b9984f8154bbf85e039d751cf8a802b6",
+   "intelligence_bound_conjecture": false,
+   "kind": "record",
+   "module": "EcoLib.Foundations.P6SerialParallel",
+   "public_since": "2026-11-26",
+   "rid": "record:P6.SerialParallel",
+   "schema": "ecolib-module/1",
+   "sha256": "82aebb17c359bd0a818c2836d786c195775ad47e6841af13c7b88c96c242db33",
+   "source_commit": "751e8baf596eec2bbe9bc455b345449e52b05367",
+   "source_repo": "jdhart81/viridis-research",
+   "source_run": "2026-11-26_P6",
+   "theorems": 5,
+   "title": "A route is no stronger than its weakest link, and alternatives never hurt: serial and parallel route reliability with a Lean proof",
+   "wrapped_in": ""
+  },
+  {
    "added_in": "0.1.0",
    "certification": {
     "evidence": "series/TCT.lean",
@@ -4686,6 +4722,6 @@
   }
  ],
  "schema": "ecolib-module/1",
- "updated": "2026-11-25",
- "version": "0.13.0"
+ "updated": "2026-11-26",
+ "version": "0.14.0"
 }

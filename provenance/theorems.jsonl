@@ -1529,6 +1529,11 @@
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P3RecoveryWorkFloor", "name": "ViridisStatements.P3.RecoveryWorkFloor.Proof.main", "schema": "ecolib-theorem/1", "stated": true}
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P3RecoveryWorkFloor", "name": "ViridisStatements.P3.RecoveryWorkFloor.Proof.target_requires_supply", "schema": "ecolib-theorem/1", "stated": true}
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P3RecoveryWorkFloor", "name": "ViridisStatements.P3.RecoveryWorkFloor.Proof.uniform_efficiency_bound", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P6SerialParallel", "name": "ViridisStatements.P6.SerialParallel.Proof.main", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P6SerialParallel", "name": "ViridisStatements.P6.SerialParallel.Proof.parallel_bounds", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P6SerialParallel", "name": "ViridisStatements.P6.SerialParallel.Proof.prod_le_factor", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P6SerialParallel", "name": "ViridisStatements.P6.SerialParallel.Proof.serial_le", "schema": "ecolib-theorem/1", "stated": true}
+{"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.P6SerialParallel", "name": "ViridisStatements.P6.SerialParallel.Proof.two_routes", "schema": "ecolib-theorem/1", "stated": true}
 {"axioms": [], "module": "EcoLib.Foundations.TCT", "name": "IsMinFilter.eq_1", "schema": "ecolib-theorem/1", "stated": false}
 {"axioms": [], "module": "EcoLib.Foundations.TCT", "name": "IsMinOn.eq_1", "schema": "ecolib-theorem/1", "stated": false}
 {"axioms": ["Classical.choice", "Quot.sound", "propext"], "module": "EcoLib.Foundations.TCT", "name": "TCT.LambertOptimum", "schema": "ecolib-theorem/1", "stated": true}
