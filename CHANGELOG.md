@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.15.0 (2026-11-28)
+
+Added 1 module (4 theorems):
+
+- `EcoLib.Foundations.P7HabitatThreshold` (2026-11-28_P7)
+
 ## 0.14.0 (2026-11-26)
 
 Added 1 module (5 theorems):

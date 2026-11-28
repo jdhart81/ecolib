@@ -2447,6 +2447,42 @@
    "wrapped_in": ""
   },
   {
+   "added_in": "0.15.0",
+   "certification": {
+    "evidence": "runs/2026-11-28_P7/certification.json",
+    "provider": "ENGINE_V3_VERIFY",
+    "public_receipt": true,
+    "statement_id": "P7.HabitatThreshold"
+   },
+   "deps": [],
+   "domain": "Foundations",
+   "empirical_validation": "",
+   "files": [
+    {
+     "file": "lean/ViridisStatements/P7/HabitatThreshold.lean",
+     "sha256": "378845bc63602cb8290b25faa64b3dbff5b76cabcc6e2f33706a1551f6b431e8"
+    },
+    {
+     "file": "runs/2026-11-28_P7/proofs/P7.HabitatThreshold.lean",
+     "sha256": "f58d3802d99da8c744c2199495c6fa513b6f9e50d800bed27ad44e2d8fb5d55f"
+    }
+   ],
+   "fingerprint": "6e7a32e66228099b80a5f765e4123cd387708ba36a96659f24a81ed892ba9b0e",
+   "intelligence_bound_conjecture": false,
+   "kind": "record",
+   "module": "EcoLib.Foundations.P7HabitatThreshold",
+   "public_since": "2026-11-28",
+   "rid": "record:P7.HabitatThreshold",
+   "schema": "ecolib-module/1",
+   "sha256": "8011fc5c65549c244a4ea535455f89de2900632a12ce931289780781a9522fb7",
+   "source_commit": "fc7145b23e3d29a45e2d9737e28f167461f9b1eb",
+   "source_repo": "jdhart81/viridis-research",
+   "source_run": "2026-11-28_P7",
+   "theorems": 4,
+   "title": "The Levins extinction threshold under habitat loss: a Lean proof of the sign of the growth term",
+   "wrapped_in": ""
+  },
+  {
    "added_in": "0.1.0",
    "certification": {
     "evidence": "series/TCT.lean",
@@ -4722,6 +4758,6 @@
   }
  ],
  "schema": "ecolib-module/1",
- "updated": "2026-11-26",
- "version": "0.14.0"
+ "updated": "2026-11-28",
+ "version": "0.15.0"
 }

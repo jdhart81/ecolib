@@ -74,6 +74,7 @@ import EcoLib.Foundations.P3CyclicSymbiosis
 import EcoLib.Foundations.P3LoopMassBalance
 import EcoLib.Foundations.P3RecoveryWorkFloor
 import EcoLib.Foundations.P6SerialParallel
+import EcoLib.Foundations.P7HabitatThreshold
 import EcoLib.Foundations.TCT
 import EcoLib.IntelligenceBound.Core
 import EcoLib.IntelligenceBound.DutyCycleLedger
